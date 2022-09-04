@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+
+		<title>Category: Pure Math | primeri</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="http://primerimath.github.io/category/pure-math/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="object">
+<meta property="og:title" content="Category: Pure Math, primeri">
+<meta property="og:url" content="http://primerimath.github.io/category/pure-math/">
+<meta property="og:site_name" content="primeri">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="primeri &raquo; Feed" href="http://primerimath.github.io/feed/">
+<link rel="alternate" type="application/rss+xml" title="primeri &raquo; Comments Feed" href="http://primerimath.github.io/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="primeri &raquo; Pure Math Category Feed" href="http://primerimath.github.io/category/pure-math/feed/">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.5.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-150410816-1" data-cfasync="false" data-wpfc-render="false" async></script>
+			<script data-cfasync="false" data-wpfc-render="false">
+				var mi_version = '8.5.3';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-150410816-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						if ( document.cookie.indexOf( disableStrs[ index ] + '=true' ) > -1 ) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						window[ disableStrs[ index ] ] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for ( var index = 0; index < disableStrs.length; index++ ) {
+						document.cookie = disableStrs[ index ] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[ disableStrs[ index ] ] = true;
+					}
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if ( mi_track_user ) {
+					function __gtagDataLayer() {
+						dataLayer.push( arguments );
+					}
+
+					function __gtagTracker( type, name, parameters ) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply( null, arguments );
+							return;
+						}
+
+						if ( type === 'event' ) {
+							
+															parameters.send_to = monsterinsights_frontend.ua;
+								__gtagDataLayer( type, name, parameters );
+													} else {
+							__gtagDataLayer.apply( null, arguments );
+						}
+					}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+											} );
+															__gtagTracker( 'config', 'UA-150410816-1', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;											(function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( 'pageview' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[2] ) {
+												hitObject = {
+													'eventAction': 'page_view',
+													'page_path' : arguments[2],
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof arguments[1].hitType ) {
+											hitObject = arguments[1];
+											if ( 'pageview' === hitObject.hitType ) {
+												hitObject.eventAction = 'page_view';
+											}
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var arg, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+										'page' : 'page_path',
+										'location' : 'page_location',
+										'title' : 'page_title',
+									};
+									for ( arg in args ) {
+																				if ( ! ( ! args.hasOwnProperty(arg) || ! gaMap.hasOwnProperty(arg) ) ) {
+											hit[gaMap[arg]] = args[arg];
+										} else {
+											hit[arg] = args[arg];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						})();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/primerimath.github.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="embed-pdf-viewer-css" href="http://primerimath.github.io/wp-content/plugins/embed-pdf-viewer/css/embed-pdf-viewer.css?ver=6.0.2" media="screen">
+<link rel="stylesheet" id="wp-quicklatex-format-css" href="http://primerimath.github.io/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.0.2" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="http://primerimath.github.io/wp-content/plugins/gutenberg/build/block-library/style.css?ver=13.3.0" media="all">
+<link rel="stylesheet" id="wpforms-gutenberg-form-selector-css" href="http://primerimath.github.io/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css?ver=1.7.4.2" media="all">
+<link rel="stylesheet" id="dashicons-css" href="http://primerimath.github.io/wp-includes/css/dashicons.min.css?ver=6.0.2" media="all">
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--accent: #e21281;--wp--preset--color--primary: #000000;--wp--preset--color--secondary: #6d6d6d;--wp--preset--color--subtle-background: #dbdbdb;--wp--preset--color--background: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 18px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 26.25px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 21px;--wp--preset--font-size--larger: 32px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style>
+<link rel="stylesheet" id="twentytwenty-style-css" href="http://primerimath.github.io/wp-content/themes/twentytwenty/style.css?ver=1.2" media="all">
+<style id="twentytwenty-style-inline-css">.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #e21281; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #e21281; }button:not(.toggle),.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #e21281; }.fill-children-accent,.fill-children-accent * { fill: #e21281; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #e21281; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #e21281; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #ffffff; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #ffffff; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #000000; }body:not(.overlay-header) .primary-menu ul { background-color: #000000; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #000000; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #000000; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #6d6d6d; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #dbdbdb; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #dbdbdb; }</style>
+<link rel="stylesheet" id="twentytwenty-print-style-css" href="http://primerimath.github.io/wp-content/themes/twentytwenty/print.css?ver=1.2" media="print">
+<!--n2css--><script src="http://primerimath.github.io/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.5.3" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" id="monsterinsights-frontend-script-js-extra">var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"http:\/\/primerimath.github.io","hash_tracking":"false","ua":"UA-150410816-1","v4_id":""};</script>
+<script src="http://primerimath.github.io/wp-content/themes/twentytwenty/assets/js/index.js?ver=1.2" id="twentytwenty-js-js" async></script>
+<script id="twentytwenty-js-js-after">
+window.addEventListener( "load", function() {
+
+				if ( typeof jQuery === "undefined" ) {
+					return;
+				}
+
+				jQuery( document ).on( "wpformsPageChange wpformsShowConditionalsField", function() { 
+
+					if ( typeof twentytwenty === "undefined" || typeof twentytwenty.intrinsicRatioVideos === "undefined" || typeof twentytwenty.intrinsicRatioVideos.makeFit === "undefined" ) {
+						return;
+					}
+
+					twentytwenty.intrinsicRatioVideos.makeFit();
+				} );
+
+				jQuery( document ).on( "wpformsRichTextEditorInit", function( e, editor ) { 
+
+					jQuery( editor.container ).find( "iframe" ).addClass( "intrinsic-ignore" );
+				} );
+			} );
+</script>
+<script src="http://primerimath.github.io/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script src="http://primerimath.github.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script src="http://primerimath.github.io/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0" id="wp-quicklatex-frontend-js"></script>
+<link rel="https://api.w.org/" href="http://primerimath.github.io/wp-json/">
+<link rel="alternate" type="application/json" href="http://primerimath.github.io/wp-json/wp/v2/categories/6">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://primerimath.github.io/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://primerimath.github.io/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 6.0.2">
+<meta name="generator" content="Site Kit by Google 1.75.0">	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	<style id="custom-background-css">body.custom-background { background-color: #ffffff; }</style>
+	<link rel="icon" href="http://primerimath.github.io/wp-content/uploads/2020/09/cropped-primeri__2_-removebg-preview-32x32.png" sizes="32x32">
+<link rel="icon" href="http://primerimath.github.io/wp-content/uploads/2020/09/cropped-primeri__2_-removebg-preview-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="http://primerimath.github.io/wp-content/uploads/2020/09/cropped-primeri__2_-removebg-preview-180x180.png">
+<meta name="msapplication-TileImage" content="http://primerimath.github.io/wp-content/uploads/2020/09/cropped-primeri__2_-removebg-preview-270x270.png">
+		<style id="wp-custom-css">img {
+display: inline-block;
+}
+
+.container {
+    width: 100%;
+}
+
+.navigation-top .wrap {
+    max-width: none;
+}</style>
+		
+	</head>
+
+	<body class="archive category category-pure-math category-6 custom-background wp-custom-logo wp-embed-responsive enable-search-modal has-no-pagination not-showing-comments show-avatars footer-top-visible reduced-spacing elementor-default elementor-kit-202">
+
+		<a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
+		<header id="site-header" class="header-footer-group" role="banner">
+
+			<div class="header-inner section-inner">
+
+				<div class="header-titles-wrapper">
+
+					
+						<button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+							<span class="toggle-inner">
+								<span class="toggle-icon">
+									<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewbox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg>								</span>
+								<span class="toggle-text">Search</span>
+							</span>
+						</button><!-- .search-toggle -->
+
+					
+					<div class="header-titles">
+
+						<div class="site-logo faux-heading">
+<a href="http://primerimath.github.io/" class="custom-logo-link" rel="home"><img width="234" height="176" style="height: 176px;" src="http://primerimath.github.io/wp-content/uploads/2020/09/cropped-primeri__1_-removebg-preview.png" class="custom-logo" alt="primeri" srcset="http://primerimath.github.io/wp-content/uploads/2020/09/cropped-primeri__1_-removebg-preview.png 469w, http://primerimath.github.io/wp-content/uploads/2020/09/cropped-primeri__1_-removebg-preview-300x225.png 300w" sizes="(max-width: 469px) 100vw, 469px"></a><span class="screen-reader-text">primeri</span>
+</div>
+<div class="site-description">Mathematics for elementary through high school students.</div>
+<!-- .site-description -->
+					</div>
+<!-- .header-titles -->
+
+					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+						<span class="toggle-inner">
+							<span class="toggle-icon">
+								<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewbox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)"></path></svg>							</span>
+							<span class="toggle-text">Menu</span>
+						</span>
+					</button><!-- .nav-toggle -->
+
+				</div>
+<!-- .header-titles-wrapper -->
+
+				<div class="header-navigation-wrapper">
+
+					
+							<nav class="primary-menu-wrapper" aria-label="Horizontal" role="navigation">
+
+								<ul class="primary-menu reset-list-style">
+
+								<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-16"><a href="http://primerimath.github.io/">Home</a></li>
+<li id="menu-item-444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444"><a href="http://primerimath.github.io/team/">Team</a></li>
+<li id="menu-item-530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-530"><a href="http://primerimath.github.io/discord">Discord</a></li>
+<li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549"><a href="http://primerimath.github.io/winter-amc-bootcamp/">Bootcamp</a></li>
+<li id="menu-item-659" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-659"><a href="http://amctrivial.com/">Trivial</a></li>
+
+								</ul>
+
+							</nav><!-- .primary-menu-wrapper -->
+
+						
+						<div class="header-toggles hide-no-js">
+
+						
+							<div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
+
+								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+									<span class="toggle-inner">
+										<span class="toggle-text">Menu</span>
+										<span class="toggle-icon">
+											<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewbox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)"></path></svg>										</span>
+									</span>
+								</button><!-- .nav-toggle -->
+
+							</div>
+<!-- .nav-toggle-wrapper -->
+
+							
+							<div class="toggle-wrapper search-toggle-wrapper">
+
+								<button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+									<span class="toggle-inner">
+										<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewbox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg>										<span class="toggle-text">Search</span>
+									</span>
+								</button><!-- .search-toggle -->
+
+							</div>
+
+							
+						</div>
+<!-- .header-toggles -->
+						
+				</div>
+<!-- .header-navigation-wrapper -->
+
+			</div>
+<!-- .header-inner -->
+
+			<div class="search-modal cover-modal header-footer-group" data-modal-target-string=".search-modal">
+
+	<div class="search-modal-inner modal-inner">
+
+		<div class="section-inner">
+
+			<form role="search" aria-label="Search for:" method="get" class="search-form" action="http://primerimath.github.io/">
+	<label for="search-form-1">
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" id="search-form-1" class="search-field" placeholder="Search &hellip;" value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+
+			<button class="toggle search-untoggle close-search-toggle fill-children-current-color" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+				<span class="screen-reader-text">Close search</span>
+				<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102"></polygon></svg>			</button><!-- .search-toggle -->
+
+		</div>
+<!-- .section-inner -->
+
+	</div>
+<!-- .search-modal-inner -->
+
+</div>
+<!-- .menu-modal -->
+
+		</header><!-- #site-header -->
+
+		
+<div class="menu-modal cover-modal header-footer-group" data-modal-target-string=".menu-modal">
+
+	<div class="menu-modal-inner modal-inner">
+
+		<div class="menu-wrapper section-inner">
+
+			<div class="menu-top">
+
+				<button class="toggle close-nav-toggle fill-children-current-color" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".menu-modal">
+					<span class="toggle-text">Close Menu</span>
+					<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102"></polygon></svg>				</button><!-- .nav-toggle -->
+
+				
+					<nav class="expanded-menu" aria-label="Expanded" role="navigation">
+
+						<ul class="modal-menu reset-list-style">
+							<li id="menu-item-374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-374">
+<div class="ancestor-wrapper"><a href="http://primerimath.github.io/elementary-competition-math/">Elementary Competition Math</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375">
+<div class="ancestor-wrapper"><a href="http://primerimath.github.io/middle-school-competition-math/">Middle School Competition Math</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+<li id="menu-item-376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-376">
+<div class="ancestor-wrapper"><a href="http://primerimath.github.io/high-school-competition-math/">High School Competition Math</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+<li id="menu-item-377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-377">
+<div class="ancestor-wrapper"><a href="http://primerimath.github.io/pure-mathematics/">Pure Mathematics</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+						</ul>
+
+					</nav>
+
+					
+					<nav class="mobile-menu" aria-label="Mobile" role="navigation">
+
+						<ul class="modal-menu reset-list-style">
+
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-16">
+<div class="ancestor-wrapper"><a href="http://primerimath.github.io/">Home</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444">
+<div class="ancestor-wrapper"><a href="http://primerimath.github.io/team/">Team</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-530">
+<div class="ancestor-wrapper"><a href="http://primerimath.github.io/discord">Discord</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549">
+<div class="ancestor-wrapper"><a href="http://primerimath.github.io/winter-amc-bootcamp/">Bootcamp</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-659">
+<div class="ancestor-wrapper"><a href="http://amctrivial.com/">Trivial</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+
+						</ul>
+
+					</nav>
+
+					
+			</div>
+<!-- .menu-top -->
+
+			<div class="menu-bottom">
+
+				
+					<nav aria-label="Expanded Social links" role="navigation">
+						<ul class="social-menu reset-list-style social-icons fill-children-current-color">
+
+							<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://www.facebook.com/primeriofficial"><span class="screen-reader-text">Facebook</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg></a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="https://www.instagram.com/primeriofficial"><span class="screen-reader-text">Instagram</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg></a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="mailto:contact@primeri.org"><span class="screen-reader-text">Email</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20,4H4C2.895,4,2,4.895,2,6v12c0,1.105,0.895,2,2,2h16c1.105,0,2-0.895,2-2V6C22,4.895,21.105,4,20,4z M20,8.236l-8,4.882 L4,8.236V6h16V8.236z"></path></svg></a></li>
+
+						</ul>
+					</nav><!-- .social-menu -->
+
+				
+			</div>
+<!-- .menu-bottom -->
+
+		</div>
+<!-- .menu-wrapper -->
+
+	</div>
+<!-- .menu-modal-inner -->
+
+</div>
+<!-- .menu-modal -->
+
+<main id="site-content" role="main">
+
+	
+		<header class="archive-header has-text-align-center header-footer-group">
+
+			<div class="archive-header-inner section-inner medium">
+
+									<h1 class="archive-title">
+<span class="color-accent">Category:</span> <span>Pure Math</span>
+</h1>
+				
+				
+			</div>
+<!-- .archive-header-inner -->
+
+		</header><!-- .archive-header -->
+
+		
+<article class="post-647 page type-page status-publish hentry category-pure-math" id="post-647">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/generating-functions-in-probability/">Generating Functions in Probability</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p>This expository paper contains content regarding generating functions in probability.</p>
+<p>If you&#8217;re interested, here is the abstract:</p>
+<p>We discuss the probability generating function as well as properties it has related to moments and radii of convergence. We also discuss the relation to moment generating functions as well as the applications of the probability generating function to topics such as random walks and inversions in permutations.</p>
+<p>Last Updated: Dec 31, 2021</p>
+<figure><object class="embed-pdf-viewer" data="http://primerimath.github.io/wp-content/uploads/2022/01/Generating_Functions_in_Probability-1.pdf#scrollbar=1&#038;toolbar=1" type="application/pdf" height="435" width="580" title="Generating Functions In Probability (1)"></object><iframe class="embed-pdf-viewer" src="https://docs.google.com/viewer?url=http%3A%2F%2Fprimerimath.github.io%2Fwp-content%2Fuploads%2F2022%2F01%2FGenerating_Functions_in_Probability-1.pdf&amp;embedded=true" frameborder="0" style="height:435px;width:580px;" title="Generating Functions In Probability (1)"></iframe>
+<p><a href="http://primerimath.github.io/wp-content/uploads/2022/01/Generating_Functions_in_Probability-1.pdf" title="Generating Functions In Probability (1)">Generating Functions In Probability (1)</a></p>
+</figure>
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-469 page type-page status-publish hentry category-pure-math" id="post-469">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/limits/">Limits</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			
+<p>This handout is the first in a series aiming to teach calculus in a more rigorous manner to motivated middle/high school. It covers limits, which are fundamental to the subject of calculus.</p>
+
+
+
+<figure class="wp-block-embed-pdf-viewer-pdf wp-block-embed-pdf-viewer-pdf__content-wrapper"><object class="embed-pdf-viewer" data="http://primerimath.github.io/wp-content/uploads/2020/11/Primeri__Limits.pdf#scrollbar=1&amp;toolbar=1" type="application/pdf" height="600" width="600"></object><iframe loading="lazy" class="embed-pdf-viewer" src="https://docs.google.com/viewer?url=http%3A%2F%2Fprimerimath.github.io%2Fwp-content%2Fuploads%2F2020%2F11%2FPrimeri__Limits.pdf&amp;embedded=true" frameborder="0" height="600" width="600"></iframe></figure>
+
+
+
+<div class="wp-block-file">
+<a href="http://primerimath.github.io/wp-content/uploads/2020/11/Primeri__Limits.pdf">Limits</a><a href="http://primerimath.github.io/wp-content/uploads/2020/11/Primeri__Limits.pdf" class="wp-block-file__button" download>Download</a>
+</div>
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-446 page type-page status-publish hentry category-pure-math tag-combinatorics tag-undergraduate" id="post-446">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/random-walks-on-groups/">Random Walks on Groups</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p style="text-align: center;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Walk3d_0.png/280px-Walk3d_0.png"></p>
+<p>&nbsp;</p>
+<h4 style="text-align: center;">By Kevin Xu</h4>
+<h2>Introduction</h2>
+<p>This article goes into the basics of random walks on groups, and may skip or skim over prerequisite information. It is advisable to look up the articles on those topics before reading this.</p>
+<hr>
+<p>Recall the definition of a group:</p>
+<p><strong>Definition 1.1: </strong> A <em>group</em> <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> is a set closed under a binary operation satisfying</p>
+<ol>
+<li>
+<strong>Identity: </strong>There exists <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-49f60af769cccd8ab8499004510bf7c4_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#101;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="13" width="44" style="vertical-align: -1px;"> such that <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-e3199571225fa646e5f0df146471f784_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#101;&#92;&#99;&#100;&#111;&#116;&#32;&#103;&#32;&#61;&#32;&#103;" title="Rendered by QuickLaTeX.com" height="12" width="63" style="vertical-align: -4px;"> for all <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f076aed4d181ca53cf11623b27729ead_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="16" width="45" style="vertical-align: -4px;">
+</li>
+<li>
+<strong>Inverse: </strong>For every <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f076aed4d181ca53cf11623b27729ead_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="16" width="45" style="vertical-align: -4px;">, there exists <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-c7bcd369473b8ddd24bc114a69491147_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#104;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="13" width="46" style="vertical-align: -1px;"> such that <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-8fc64bcba58e278864ba554ec97ed5b3_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#92;&#99;&#100;&#111;&#116;&#32;&#104;&#32;&#61;&#32;&#104;&#92;&#99;&#100;&#111;&#116;&#32;&#103;&#32;&#61;&#32;&#101;" title="Rendered by QuickLaTeX.com" height="16" width="119" style="vertical-align: -4px;">
+</li>
+<li>
+<strong>Association: </strong>For every <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f918ab5bed2f53bc7c8b84d936a81efe_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#44;&#104;&#44;&#107;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="16" width="81" style="vertical-align: -4px;">, we have <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-1030683c42d9579d4c880c68c2f7ce26_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#40;&#103;&#104;&#41;&#92;&#99;&#100;&#111;&#116;&#32;&#107;&#32;&#61;&#32;&#103;&#92;&#99;&#100;&#111;&#116;&#32;&#40;&#104;&#107;&#41;" title="Rendered by QuickLaTeX.com" height="19" width="133" style="vertical-align: -5px;">
+</li>
+</ol>
+<p>Subsets of groups that are also groups are called <em>subgroups</em>. For example, the set containing just the identity is the trivial subgroup, and a group is a subgroup of itself. Because subgroups are closed under their operation (as a subset of the group), we can split a group into <em>cosets</em> of a subgroup <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4e74457718cc54b4f27998753aced0bc_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;">, where each coset is <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-7c554237670034214aae0a4a3b585d6f_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#72;" title="Rendered by QuickLaTeX.com" height="16" width="25" style="vertical-align: -4px;"> for elements <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f076aed4d181ca53cf11623b27729ead_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="16" width="45" style="vertical-align: -4px;">. Some of these cosets can overlap, though cosets are either mutually exclusive or are equivalent.</p>
+<p><strong>Exercise 1.2: </strong>For <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-04747a2c38942945fe6df58dfb49762a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#44;&#98;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="16" width="61" style="vertical-align: -4px;">, prove that for any subgroup <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4e74457718cc54b4f27998753aced0bc_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;"> the cosets <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-e700be6bdc57fdd7f0bcf178095b0b4b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#72;" title="Rendered by QuickLaTeX.com" height="12" width="25" style="vertical-align: 0px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-87bee29d8522ba45b8fc9877e4b64017_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#98;&#72;" title="Rendered by QuickLaTeX.com" height="12" width="24" style="vertical-align: 0px;"> are either the same set or contain no overlap.</p>
+<p><em>Hint: What happens when we have <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-e7ff29cae54b59844c596150093049c1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#104;&#95;&#49;&#32;&#61;&#32;&#98;&#104;&#95;&#50;" title="Rendered by QuickLaTeX.com" height="15" width="76" style="vertical-align: -3px;"> for <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-959ddeeba8313ec8ef88b8a936749e94_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#104;&#95;&#49;&#44;&#104;&#95;&#50;&#92;&#105;&#110;&#32;&#72;" title="Rendered by QuickLaTeX.com" height="16" width="81" style="vertical-align: -4px;">?</em></p>
+<p>In fact, <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-7c554237670034214aae0a4a3b585d6f_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#72;" title="Rendered by QuickLaTeX.com" height="16" width="25" style="vertical-align: -4px;"> is actually called a left coset, and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-ade2463fe94e77488bf91f5d2a9b7f53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;&#103;" title="Rendered by QuickLaTeX.com" height="16" width="25" style="vertical-align: -4px;"> would be a right coset. However, we usually talk about cosets of <em>normal subgroups</em>, which is when <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-7c554237670034214aae0a4a3b585d6f_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#72;" title="Rendered by QuickLaTeX.com" height="16" width="25" style="vertical-align: -4px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-ade2463fe94e77488bf91f5d2a9b7f53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;&#103;" title="Rendered by QuickLaTeX.com" height="16" width="25" style="vertical-align: -4px;"> are the same set. Note that this is equivalent to <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4e74457718cc54b4f27998753aced0bc_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;"> being closed under <em>conjugation</em> (i.e subgroup <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5cd428d0cbc9cf4626e9ccba3d80fb7d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="13" width="52" style="vertical-align: -1px;"> is normal if and only if <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a16a832f434494bd2998c65f189654f3_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#104;&#103;&#94;&#123;&#45;&#49;&#125;&#92;&#105;&#110;&#32;&#72;" title="Rendered by QuickLaTeX.com" height="19" width="84" style="vertical-align: -4px;"> for all <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-fc2580029318df8a9134548a17fa275e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#92;&#105;&#110;&#32;&#71;&#44;&#32;&#104;&#92;&#105;&#110;&#32;&#72;" title="Rendered by QuickLaTeX.com" height="16" width="100" style="vertical-align: -4px;">). It turns out that the set of cosets of a normal subgroup forms another group called the <em>quotient group</em>. One familiar quotient group is the remainders when dividing by <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f991d7a910f67901230c60ca75fd6537_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#110;" title="Rendered by QuickLaTeX.com" height="8" width="11" style="vertical-align: 0px;">, or <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-8bfb3800e1dcc929209adad24ecaa9dd_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;&#47;&#110;&#92;&#90;" title="Rendered by QuickLaTeX.com" height="19" width="49" style="vertical-align: -5px;">, which is a quotient group of the integers under addition.</p>
+<hr>
+<h2>Random Walks</h2>
+<p>Now that we&#8217;ve introduced groups, let&#8217;s talk about probability. When we usually think of probability, we think of events such as rolling a die or flipping a coin, and associate a value from <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-75e54abee44e228226ce7184b15bf3a6_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#48;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: 0px;"> to <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a93be62c71e460829d7b4fc2d702173d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#49;" title="Rendered by QuickLaTeX.com" height="12" width="7" style="vertical-align: 0px;"> to that event. We can do the same but with groups, by using a function to associate a probability to each element of a group.</p>
+<p><strong>Definition 1.3: </strong>A <em>probability distribution</em> is a function <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-611fb9b43cf2d0b60a5fb89abb72a0fb_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#92;&#99;&#111;&#108;&#111;&#110;&#32;&#71;&#92;&#116;&#111;&#32;&#91;&#48;&#44;&#49;&#93;" title="Rendered by QuickLaTeX.com" height="18" width="102" style="vertical-align: -5px;"> such that </p>
+<p class="ql-center-displayed-equation" style="line-height: 41px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-1dfffa8c3932cee14f5b6614c2558215_l3.png" height="41" width="103" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#92;&#115;&#117;&#109;&#95;&#123;&#103;&#92;&#105;&#110;&#32;&#71;&#125;&#32;&#80;&#40;&#103;&#41;&#32;&#61;&#32;&#49;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p>Essentially, the probability of picking element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-cccecf17034bc20e17e7a603ec2b2a8d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"> is <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f21de6eab410f5cf90b1c9a7f592932c_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#40;&#103;&#41;" title="Rendered by QuickLaTeX.com" height="19" width="36" style="vertical-align: -5px;">. Below are several examples of probability distributions:</p>
+<p>Flipping a fair coin can be represented as a distribution on <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-9f6722e02618f5afa9ffa99215df2c27_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;&#47;&#50;&#92;&#90;" title="Rendered by QuickLaTeX.com" height="19" width="47" style="vertical-align: -5px;">, or the remainders modulo <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-bd157467a32cdb21a84d27e24d7e3a0e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#50;" title="Rendered by QuickLaTeX.com" height="12" width="8" style="vertical-align: 0px;">, where both probabilities are <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-29efb953183052015e919839806cfe9e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#102;&#114;&#97;&#99;&#123;&#49;&#125;&#123;&#50;&#125;" title="Rendered by QuickLaTeX.com" height="22" width="7" style="vertical-align: -6px;">. Rolling a fair die is a distribution on <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-8aa3b2382d1223d2cd8a71986efb4ec6_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;&#47;&#54;&#92;&#90;" title="Rendered by QuickLaTeX.com" height="19" width="47" style="vertical-align: -5px;">, again with equal probabilities for each element. When we have equal probabilities, or <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-d63da14c1f55ece45fe3f37a3b46a419_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#40;&#103;&#41;&#61;&#92;&#102;&#114;&#97;&#99;&#123;&#49;&#125;&#123;&#124;&#71;&#124;&#125;&#92;&#32;&#92;&#102;&#111;&#114;&#97;&#108;&#108;&#32;&#103;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="26" width="143" style="vertical-align: -10px;">, we say the distribution is <em>uniform</em>. Here, <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-fc1253c066ea3df7390fd8dea129f305_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#124;&#71;&#124;" title="Rendered by QuickLaTeX.com" height="19" width="20" style="vertical-align: -5px;"> is the <em>order</em> of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">, and is the number of elements in the group.</p>
+<p>A game where you can move forward or backward at every step with equal probability is best represented by <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f31e9331fdfbfb84de4e19a0f12c2483_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;&#94;&#43;" title="Rendered by QuickLaTeX.com" height="15" width="22" style="vertical-align: 0px;">, the integers under addition, with distribution <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-442369e0c29c75d865a139e350987cb8_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#40;&#49;&#41;&#61;&#80;&#40;&#45;&#49;&#41;&#61;&#92;&#102;&#114;&#97;&#99;&#123;&#49;&#125;&#123;&#50;&#125;" title="Rendered by QuickLaTeX.com" height="22" width="143" style="vertical-align: -6px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-19ae2ed5f49b6d2e001cdc96b96aaf45_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#40;&#88;&#41;&#61;&#48;" title="Rendered by QuickLaTeX.com" height="19" width="76" style="vertical-align: -5px;"> otherwise. In these non-uniform distributions, the elements that have probability zero are not important as they can never occur, so in many cases we want to work with the <em>support</em> of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-072d379494e1492942e0a2c90cc044d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">, or the set of elements that have positive probability.</p>
+<p>Now just like how we can construct a sequence of coin flips or dice rolls, we can construct a sequence by starting from the identity and then multiply by an element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-cccecf17034bc20e17e7a603ec2b2a8d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"> with probability <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f21de6eab410f5cf90b1c9a7f592932c_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#40;&#103;&#41;" title="Rendered by QuickLaTeX.com" height="19" width="36" style="vertical-align: -5px;"> at every step.</p>
+<p><strong>Definition 1.4: </strong>A <em>random walk</em> on a group <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> along with its associated probability distribution <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-072d379494e1492942e0a2c90cc044d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> is a sequence of elements starting from <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-914f0260ab7403c5821e2d4111d18a05_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#101;" title="Rendered by QuickLaTeX.com" height="8" width="8" style="vertical-align: 0px;"> such that the probability of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-cccecf17034bc20e17e7a603ec2b2a8d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"> moving to <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-ecd92e31cfaa8213c79ef45e5106032a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#104;" title="Rendered by QuickLaTeX.com" height="16" width="19" style="vertical-align: -4px;"> is <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-dbcb80bddbd60445fcfeaba59a26ba97_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#40;&#104;&#41;" title="Rendered by QuickLaTeX.com" height="19" width="37" style="vertical-align: -5px;"> for <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-538828a3a7456d77b49c9f0bcec2d56b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#44;&#104;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="16" width="63" style="vertical-align: -4px;">.</p>
+<p>A random walk is called <em>irreducible</em> if the probability of getting to <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-e226c807262ebb7dab815c5df174371b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#104;" title="Rendered by QuickLaTeX.com" height="12" width="10" style="vertical-align: 0px;"> from <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-cccecf17034bc20e17e7a603ec2b2a8d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"> is positive for all <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-538828a3a7456d77b49c9f0bcec2d56b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#44;&#104;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="16" width="63" style="vertical-align: -4px;">, meaning we can always get from any element to any other element, and a random walk is called <em>aperiodic</em> if for time <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-59715679aaf84ed5ac49996f3243f20e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#116;&#62;&#84;" title="Rendered by QuickLaTeX.com" height="14" width="43" style="vertical-align: -2px;"> where <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-9d4185be38ee40de7591657757c41a25_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#84;" title="Rendered by QuickLaTeX.com" height="12" width="13" style="vertical-align: 0px;"> is fixed the probability of reaching an element is positive, meaning we can reach any state at any time given that the time is large enough. When both conditions are satisfied, we say that the walk is <em>ergodic</em>. Below are a few examples of random walks on groups:</p>
+<p><strong>Example 1.5: </strong>A random walk on the plane moving one unit in any direction parallel to the axes can be represented as a random walk on <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-2583621198e684ec0b838a2046c0d68b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;&#94;&#50;" title="Rendered by QuickLaTeX.com" height="16" width="19" style="vertical-align: 0px;"> defined on <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-789f513395329f141a5106b834d9c5d0_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#91;&#40;&#48;&#44;&#49;&#41;&#93;&#61;&#80;&#91;&#40;&#48;&#44;&#45;&#49;&#41;&#93;&#61;&#80;&#91;&#40;&#49;&#44;&#48;&#41;&#93;&#61;&#80;&#91;&#40;&#45;&#49;&#44;&#48;&#41;&#93;&#61;&#92;&#102;&#114;&#97;&#99;&#123;&#49;&#125;&#123;&#52;&#125;" title="Rendered by QuickLaTeX.com" height="22" width="383" style="vertical-align: -6px;">.</p>
+<p><strong>Example 1.6: </strong>Shuffling cards is a random walk on <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-521eeddbe1f3a3a06d62419ec3068294_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#83;&#95;&#110;" title="Rendered by QuickLaTeX.com" height="15" width="19" style="vertical-align: -3px;">, the symmetric group. The probability distribution depends on what method is used to shuffle the cards.</p>
+<p>One easy albeit inefficient way to shuffle a deck is by transposition, or switching the positions of two not necessarily distinct cards in the deck. This can be represented by the distribution </p>
+<p class="ql-center-displayed-equation" style="line-height: 75px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-c05abcf4ae5990549077fb2f9be34b0a_l3.png" height="75" width="266" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#80;&#40;&#92;&#112;&#105;&#41;&#32;&#61; &#92;&#98;&#101;&#103;&#105;&#110;&#123;&#99;&#97;&#115;&#101;&#115;&#125; &#92;&#102;&#114;&#97;&#99;&#123;&#49;&#125;&#123;&#110;&#125;&#32;&#38;&#32;&#92;&#112;&#105;&#32;&#61;&#32;&#101;&#32;&#92;&#92; &#92;&#102;&#114;&#97;&#99;&#123;&#50;&#125;&#123;&#110;&#94;&#50;&#125;&#32;&#38;&#32;&#92;&#112;&#105;&#92;&#116;&#101;&#120;&#116;&#123;&#32;&#105;&#115;&#32;&#97;&#32;&#116;&#114;&#97;&#110;&#115;&#112;&#111;&#115;&#105;&#116;&#105;&#111;&#110;&#125;&#32;&#92;&#92; &#48;&#32;&#38;&#32;&#92;&#116;&#101;&#120;&#116;&#123;&#111;&#116;&#104;&#101;&#114;&#119;&#105;&#115;&#101;&#125;&#46; &#92;&#101;&#110;&#100;&#123;&#99;&#97;&#115;&#101;&#115;&#125;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p><strong>Exercise 1.7: </strong>Are Examples 1.5 and 1.6 ergodic random walks?</p>
+<p>In standard probability, as long as we repeat for a large amount of times, our sequence will &#8220;converge&#8221; to some value. For example, a fair coin will always converge to a 50-50 distribution after a large number of tries no matter what the first few flips are.</p>
+<p>In the same way, as long as we make a large amount of steps in any random walk, we also approach a &#8220;stationary distribution&#8221; consisting of the probabilities of landing on each element. But to find a stationary distribution, we need to find the probability of being at element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-cccecf17034bc20e17e7a603ec2b2a8d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"> after a long time <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5d05640c57393d82477f65f435e7768a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#107;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: 0px;">, which is quite hard in practice. Thus we define a <em>convolution</em> recursively by </p>
+<p class="ql-center-displayed-equation" style="line-height: 38px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-3889a464de4f894dadcbc2f216f1d4ad_l3.png" height="38" width="222" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#80;&#92;&#115;&#116;&#97;&#114;&#32;&#80;&#40;&#103;&#41;&#32;&#61;&#32;&#92;&#115;&#117;&#109;&#95;&#104;&#32;&#80;&#40;&#103;&#104;&#94;&#123;&#45;&#49;&#125;&#41;&#80;&#40;&#104;&#41;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p> and </p>
+<p class="ql-center-displayed-equation" style="line-height: 22px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-b2ddbc1c4da93cbaddeb4a0450cce5e4_l3.png" height="22" width="189" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#80;&#94;&#107;&#40;&#103;&#41;&#32;&#61;&#32;&#80;&#94;&#123;&#107;&#45;&#49;&#125;&#40;&#103;&#41;&#92;&#115;&#116;&#97;&#114;&#32;&#80;&#40;&#103;&#41;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p>Basically, <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-0b42dbe7d4238d71da1f69a424fbfd67_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#94;&#50;&#40;&#103;&#41;" title="Rendered by QuickLaTeX.com" height="20" width="44" style="vertical-align: -5px;"> is the sum over all instances of first rolling element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-e226c807262ebb7dab815c5df174371b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#104;" title="Rendered by QuickLaTeX.com" height="12" width="10" style="vertical-align: 0px;"> and then rolling <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-1fdb474dd45d99cba93f3dae4b5556b4_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#104;&#94;&#123;&#45;&#49;&#125;" title="Rendered by QuickLaTeX.com" height="19" width="36" style="vertical-align: -4px;">, which results in being at element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-cccecf17034bc20e17e7a603ec2b2a8d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"> after two steps. The recursion then follows inductively.</p>
+<p>The convolutions will converge to a unique stationary distribution when the random walk is ergodic (and in fact, will be uniform). However, ergodicity is also somewhat hard to establish.</p>
+<hr>
+<p><strong>Theorem 1.8: </strong>For a group <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> and its probability distribution <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-072d379494e1492942e0a2c90cc044d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">, the random walk on <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> will be ergodic if and only if the support of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-072d379494e1492942e0a2c90cc044d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> cannot be contained by a proper subgroup or a coset of a proper normal subgroup of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">.</p>
+<p><strong>Proof:</strong><br>
+Here, proper subgroup means it is not equivalent to <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">. Let the support of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-072d379494e1492942e0a2c90cc044d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> be <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">. First suppose that the random walk is irreducible, so starting from <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-914f0260ab7403c5821e2d4111d18a05_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#101;" title="Rendered by QuickLaTeX.com" height="8" width="8" style="vertical-align: 0px;"> we can arrive at any element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f076aed4d181ca53cf11623b27729ead_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#92;&#105;&#110;&#32;&#71;" title="Rendered by QuickLaTeX.com" height="16" width="45" style="vertical-align: -4px;">. Because we can only multiply by elements in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">, in order to reach any element the support must contain a generating set for <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">. Thus <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> generates <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">. But now, if <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> can be contained by a proper subgroup of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">, then due to closure the set generated by <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">, or <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">, must be contained within the subgroup. This is a contradiction, so <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> cannot be contained within a proper subgroup.</p>
+<p>Conversely, suppose <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> cannot be contained within a proper subgroup <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4e74457718cc54b4f27998753aced0bc_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;">. The set generated by <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> must be closed and contain inverses, so it must be a subgroup. However, it cannot be a proper subgroup, so then it must be <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">. Thus <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> generates <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">. Then any element can be written as a product of elements in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">, so we can always get from element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-cccecf17034bc20e17e7a603ec2b2a8d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: -4px;"> to <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-e226c807262ebb7dab815c5df174371b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#104;" title="Rendered by QuickLaTeX.com" height="12" width="10" style="vertical-align: 0px;"> by multiplying the corresponding representation for <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-0dd4c54bb875f25e2fbf06bc64d70c1c_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#94;&#123;&#45;&#49;&#125;&#104;" title="Rendered by QuickLaTeX.com" height="19" width="37" style="vertical-align: -4px;">. Therefore <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-072d379494e1492942e0a2c90cc044d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> is irreducible.</p>
+<p>Now suppose that <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> is contained by some coset of a proper normal subgroup <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-7c554237670034214aae0a4a3b585d6f_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#72;" title="Rendered by QuickLaTeX.com" height="16" width="25" style="vertical-align: -4px;">. Then the first <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f991d7a910f67901230c60ca75fd6537_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#110;" title="Rendered by QuickLaTeX.com" height="8" width="11" style="vertical-align: 0px;"> steps can be expressed as multiplying by <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-d3ce87038f7c4062aeea992fdd75a0df_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#104;&#95;&#49;&#44;&#103;&#104;&#95;&#50;&#44;&#92;&#100;&#111;&#116;&#115;&#44;&#103;&#104;&#95;&#110;" title="Rendered by QuickLaTeX.com" height="16" width="128" style="vertical-align: -4px;"> in order. Thus we arrive at their product </p>
+<p class="ql-center-displayed-equation" style="line-height: 19px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-0af6d5efaa32234503b2fe0607b9d4fe_l3.png" height="19" width="148" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#40;&#103;&#104;&#95;&#49;&#41;&#40;&#103;&#104;&#95;&#50;&#41;&#92;&#99;&#100;&#111;&#116;&#115;&#40;&#103;&#104;&#95;&#110;&#41;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p> after <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f991d7a910f67901230c60ca75fd6537_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#110;" title="Rendered by QuickLaTeX.com" height="8" width="11" style="vertical-align: 0px;"> steps. Now note that </p>
+<p class="ql-center-displayed-equation" style="line-height: 22px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a277402cb5b9485b75c40a16e1c55d5e_l3.png" height="22" width="342" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#40;&#103;&#104;&#95;&#105;&#41;&#40;&#103;&#104;&#95;&#106;&#41;&#32;&#61;&#32;&#103;&#40;&#104;&#95;&#105;&#103;&#41;&#104;&#95;&#106;&#32;&#61;&#32;&#103;&#40;&#103;&#104;&#95;&#105;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#41;&#104;&#95;&#106;&#32;&#61;&#32;&#103;&#94;&#50;&#40;&#104;&#95;&#105;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#32;&#104;&#95;&#106;&#41;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p> because of association and normality. By carrying out this process multiple times, we see that the product becomes <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-3b08390c5fb339126cf8fa66e4bed1f1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#94;&#110;&#40;&#104;&#95;&#49;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#32;&#92;&#99;&#100;&#111;&#116;&#115;&#32;&#104;&#95;&#123;&#110;&#45;&#49;&#125;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#32;&#104;&#95;&#110;&#41;" title="Rendered by QuickLaTeX.com" height="19" width="132" style="vertical-align: -5px;">. Closure tells us that <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-552f82a22901ace01d68873de71069d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#104;&#95;&#49;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#92;&#99;&#100;&#111;&#116;&#115;&#32;&#104;&#95;&#110;" title="Rendered by QuickLaTeX.com" height="19" width="62" style="vertical-align: -5px;"> must lie in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4e74457718cc54b4f27998753aced0bc_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;">, and therefore the product lies in the coset <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-6636af1d1f9e00cac72d57044c175628_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#94;&#110;&#72;" title="Rendered by QuickLaTeX.com" height="16" width="34" style="vertical-align: -4px;">. Since <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4e74457718cc54b4f27998753aced0bc_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#72;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;"> is a proper normal subgroup, we can take an element of the nonempty set <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-c431af4ed6bf511acfccd621322f7f8f_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;&#92;&#98;&#97;&#99;&#107;&#115;&#108;&#97;&#115;&#104;&#32;&#103;&#94;&#110;&#72;" title="Rendered by QuickLaTeX.com" height="19" width="57" style="vertical-align: -5px;">, and observe that we cannot arrive at this element in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f991d7a910f67901230c60ca75fd6537_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#110;" title="Rendered by QuickLaTeX.com" height="8" width="11" style="vertical-align: 0px;"> steps. Because <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f991d7a910f67901230c60ca75fd6537_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#110;" title="Rendered by QuickLaTeX.com" height="8" width="11" style="vertical-align: 0px;"> was chosen arbitrarily, the random walk cannot be aperiodic.</p>
+<p>Conversely, suppose the random walk is not aperiodic. Since the walk is irreducible, this means that we will arrive at any element periodically with interval <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-3c25c6b3d7325682a34bf252539a9a55_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#109;&#62;&#49;" title="Rendered by QuickLaTeX.com" height="14" width="47" style="vertical-align: -2px;">. We can express this formally as the common factor </p>
+<p class="ql-center-displayed-equation" style="line-height: 19px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-7e21b356f0176a0b5a33ed92f5857c5a_l3.png" height="19" width="264" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#109;&#32;&#61;&#32;&#92;&#103;&#99;&#100;&#92;&#123;&#107;&#92;&#109;&#105;&#100;&#32;&#92;&#120;&#105;&#95;&#49;&#92;&#99;&#100;&#111;&#116;&#115;&#92;&#120;&#105;&#95;&#107;&#32;&#61;&#32;&#101;&#44;&#92;&#32;&#92;&#120;&#105;&#95;&#105;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#92;&#125;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p> This is because two sequences will arrive at the same element at different steps only if we multiply by the representation of the identity in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">. Now define </p>
+<p class="ql-center-displayed-equation" style="line-height: 19px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4f407867c016771dd702a94cb3a927b0_l3.png" height="19" width="329" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#105;&#32;&#61;&#32;&#92;&#123;&#92;&#120;&#105;&#95;&#49;&#92;&#99;&#100;&#111;&#116;&#115;&#92;&#120;&#105;&#95;&#107;&#92;&#109;&#105;&#100;&#32;&#92;&#120;&#105;&#95;&#106;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#44;&#92;&#32;&#107;&#92;&#101;&#113;&#117;&#105;&#118;&#32;&#106;&#92;&#112;&#109;&#111;&#100;&#32;&#109;&#92;&#125;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p> We prove that these sets do not overlap with each other. First note that if <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-9343688772586c29b41acaa0d834e9e1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#120;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#105;&#44;&#92;&#32;&#121;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#106;" title="Rendered by QuickLaTeX.com" height="18" width="114" style="vertical-align: -6px;">, then <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-c20e73d9ebf48fa67527a375c5f750d2_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#120;&#121;" title="Rendered by QuickLaTeX.com" height="12" width="19" style="vertical-align: -4px;"> is the product of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-98d0bef80f9e5ffc327395f5461cd983_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#105;&#43;&#106;" title="Rendered by QuickLaTeX.com" height="16" width="36" style="vertical-align: -4px;"> elements in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> and thus lies in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-cd79078eb7a3eb7ae63b46ca1cdaf79b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#123;&#105;&#43;&#106;&#125;" title="Rendered by QuickLaTeX.com" height="18" width="35" style="vertical-align: -6px;">, which further implies <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-b9e9fece606bd11be48acc35ad07494b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#120;&#94;&#123;&#45;&#49;&#125;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#123;&#45;&#105;&#125;" title="Rendered by QuickLaTeX.com" height="18" width="79" style="vertical-align: -3px;">. Now suppose we have overlap between two sets, i.e. <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-1ad2878502d140368f28ac9af9e1b359_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#120;&#105;&#95;&#49;&#92;&#99;&#100;&#111;&#116;&#115;&#32;&#92;&#120;&#105;&#95;&#112;&#32;&#61;&#32;&#92;&#120;&#105;&#95;&#49;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#92;&#99;&#100;&#111;&#116;&#115;&#32;&#92;&#120;&#105;&#95;&#113;&#94;&#92;&#112;&#114;&#105;&#109;&#101;" title="Rendered by QuickLaTeX.com" height="21" width="138" style="vertical-align: -7px;">. Rearranging, this is </p>
+<p class="ql-center-displayed-equation" style="line-height: 24px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-230f71df0c4d771c528ca766ce8658c6_l3.png" height="24" width="185" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#101;&#32;&#61;&#32;&#92;&#120;&#105;&#95;&#49;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#92;&#99;&#100;&#111;&#116;&#115;&#92;&#120;&#105;&#95;&#113;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#92;&#120;&#105;&#95;&#112;&#94;&#123;&#45;&#49;&#125;&#92;&#99;&#100;&#111;&#116;&#115;&#92;&#120;&#105;&#95;&#49;&#123;&#45;&#49;&#125;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p> By the definition of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-b498838c5295738ef4f282b862d0758a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#109;" title="Rendered by QuickLaTeX.com" height="8" width="15" style="vertical-align: 0px;"> this product must lie in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a9a568b623935c1400cd60a0c739c0d8_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;&#94;&#48;" title="Rendered by QuickLaTeX.com" height="15" width="20" style="vertical-align: 0px;">, so we have <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-fbc183458ba45b8bff655a95e53d4354_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#112;&#40;&#109;&#45;&#49;&#41;&#43;&#113;&#92;&#101;&#113;&#117;&#105;&#118;&#32;&#48;&#92;&#112;&#109;&#111;&#100;&#32;&#109;" title="Rendered by QuickLaTeX.com" height="19" width="209" style="vertical-align: -5px;">, which implies <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-3513a296ed657c5d315e215b74240039_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#112;&#92;&#101;&#113;&#117;&#105;&#118;&#32;&#113;" title="Rendered by QuickLaTeX.com" height="12" width="42" style="vertical-align: -4px;">. Therefore <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-becce729fd2fee0624ba579ce1c19956_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#112;" title="Rendered by QuickLaTeX.com" height="18" width="20" style="vertical-align: -6px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-d9cff1e3b23004510d59e1536cacc38f_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#113;" title="Rendered by QuickLaTeX.com" height="18" width="20" style="vertical-align: -6px;"> have no common elements unless <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-e65ba53e8ab75b4ac98dedeac4d8b3e4_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#112;&#44;&#113;" title="Rendered by QuickLaTeX.com" height="12" width="26" style="vertical-align: -4px;"> are equivalent. Lastly, note that <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-62cf8622677825a123ee46f2fd63cb75_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#48;" title="Rendered by QuickLaTeX.com" height="15" width="20" style="vertical-align: -3px;"> is a normal subgroup of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-247b2629489e54cd33a5c6a84c979c0d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#71;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">. If <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-fc1d0577092521af81787c49052e2e00_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#95;&#48;&#44;&#104;&#95;&#48;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#48;" title="Rendered by QuickLaTeX.com" height="16" width="84" style="vertical-align: -4px;">, then <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a69e9d16ac77998f395575ce12dccd2c_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#95;&#48;&#104;&#95;&#48;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#123;&#48;&#43;&#48;&#125;" title="Rendered by QuickLaTeX.com" height="17" width="94" style="vertical-align: -5px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5507ba8d23a3d0417e99cf65e3d2c92e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#95;&#48;&#94;&#123;&#45;&#49;&#125;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#123;&#45;&#48;&#125;" title="Rendered by QuickLaTeX.com" height="21" width="80" style="vertical-align: -5px;">. For some element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-b8f23ed626d936a927551844eb297606_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#107;" title="Rendered by QuickLaTeX.com" height="16" width="51" style="vertical-align: -4px;">, we have <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-c936563322f1e12fd30af98715f9edfb_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#103;&#94;&#123;&#45;&#49;&#125;&#103;&#95;&#48;&#103;&#32;&#92;&#105;&#110;&#32;&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#123;&#45;&#107;&#43;&#48;&#43;&#107;&#125;" title="Rendered by QuickLaTeX.com" height="20" width="141" style="vertical-align: -5px;">. Therefore since <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-10132b36a83081e0efb982b69c252d53_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> is a subset of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a16e1e10384bcfa493a0ce7e91e78a07_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#49;" title="Rendered by QuickLaTeX.com" height="15" width="19" style="vertical-align: -3px;">, it is contained in a coset of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-62cf8622677825a123ee46f2fd63cb75_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#83;&#105;&#103;&#109;&#97;&#95;&#48;" title="Rendered by QuickLaTeX.com" height="15" width="20" style="vertical-align: -3px;">.</p>
+<hr>
+<p>Besides wanting to know what a distribution will converge, we also want to find out how many steps we need to get a close approximation of the stationary distribution.</p>
+<p><strong>Definition 1.9: </strong><em>Total variation</em> measures how much a distribution deviates from its stationary distribution <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-d945daf6dbcf451b064ba9fad88c5681_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#117;" title="Rendered by QuickLaTeX.com" height="8" width="10" style="vertical-align: 0px;"> after a certain amount of steps, and is calculated by </p>
+<p class="ql-center-displayed-equation" style="line-height: 47px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-7390e052dad95b977d8d9624769eab7f_l3.png" height="47" width="275" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#124;&#124;&#80;&#94;&#107;&#45;&#117;&#124;&#124;&#95;&#123;&#84;&#86;&#125;&#32;&#61;&#32;&#92;&#102;&#114;&#97;&#99;&#123;&#49;&#125;&#123;&#50;&#125;&#92;&#115;&#117;&#109;&#95;&#103;&#32;&#92;&#108;&#124;&#80;&#94;&#107;&#40;&#103;&#41;&#45;&#92;&#102;&#114;&#97;&#99;&#123;&#49;&#125;&#123;&#124;&#71;&#124;&#125;&#92;&#114;&#124;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p>When the total variation is small, commonly measured with <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-e032a7cb6ef27b1a70bb0ca767f1b9ff_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#102;&#114;&#97;&#99;&#123;&#49;&#125;&#123;&#52;&#125;" title="Rendered by QuickLaTeX.com" height="22" width="7" style="vertical-align: -6px;"> or other small number, we say that the random walk is sufficiently <em>mixed</em>. The <em>mixing time</em>, is the minimum time <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5d05640c57393d82477f65f435e7768a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#107;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: 0px;"> for which a random walk is mixed.</p>
+<h2>Conclusion</h2>
+<p>It is always nice to find the mixing time or find better bounds on it in a random walk in order to have more efficient processes. For example, Persi Diaconis and Mehrdad Shahshahani proved in 1980 that it takes <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-6ac7710fbb0a6aeac0e9c946c70c59c6_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#50;&#55;&#48;" title="Rendered by QuickLaTeX.com" height="13" width="27" style="vertical-align: 0px;"> transpositions on a 52-card deck to ensure the total variation was less than <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f32b1ff05abbc0a0874f5eead1c1f3fa_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#48;&#46;&#48;&#49;" title="Rendered by QuickLaTeX.com" height="12" width="31" style="vertical-align: 0px;">. In comparison, the popular riffle shuffle takes about <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-6f65a249a76fc8709a1d15679e1c7dc7_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#54;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: 0px;"> shuffles to ensure the same &#8220;randomness.&#8221; Many real-life events can be expressed as random walks on groups, and I encourage you to explore them yourself and find their stationary distributions/mixing times!</p>
+<h2>References</h2>
+<ul>
+<li>[Dia87] Persi Diaconis. <em>Random Walks on Groups: Characters and Geometry</em>. Stanford University, 1987.</li>
+<li>[Dia12] Persi Diaconis. <em>Group Representations in Probability and Statistics</em>. Harvard University, 2012.</li>
+<li>[DS80] Persi Diaconis and Mehrdad Shahshahani. <em>Generating a random permutation with random transpositions</em>. Stanford University, 1980.</li>
+<li>[Out15] Nolan Outlaw. <em>Markov Chains, Random Walks, and Card Shuffling</em>. Illinois Institute of Technology, 2015.</li>
+</ul>
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-163 page type-page status-publish hentry category-pure-math" id="post-163">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/pure-mathematics/">Pure Mathematics</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			
+<h2>What is Pure Mathematics?</h2>
+
+
+
+<p>Pure mathematics is the general branch of mathematics that deals with mathematical concepts without any relation to the real world. In contrast with applied mathematics, its concepts are not usually applied to other fields outside of math. For example, while applied math might seek to study mathematics for the sake of applying it in physics or engineering, pure math focuses on results obtainable within mathematics.</p>
+
+
+
+<p>There is immense motivation to study both pure and applied math. Pure math has many different branches, such as abstract algebra and analysis, but subjects can range to include things like string and knot theory as well. Here are some of our resources to get you started:</p>
+
+
+
+<h2>Calculus Resources</h2>
+
+
+
+<ul><li><a href="http://primerimath.github.io/limits/">Limits</a></li></ul>
+
+
+
+<p></p>
+
+
+
+<h2>Expository Papers</h2>
+
+
+
+<ul>
+<li><a href="http://primerimath.github.io/random-walks-on-groups/">Random Walks on Groups</a></li>
+<li><a href="http://primerimath.github.io/generating-functions-in-probability/">Generating Functions in Probability</a></li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<h2>Other Links to Resources</h2>
+
+
+
+<ul>
+<li><a href="http://primerimath.github.io/set-theory/">Set Theory</a></li>
+<li><a href="http://primerimath.github.io/group-theory/">Group Theory</a></li>
+<li><a href="http://primerimath.github.io/group-theory/ring-theory/">Ring Theory</a></li>
+<li><a href="http://primerimath.github.io/knot-theory/">Knot Theory</a></li>
+<li>Other useful topics: <a href="http://primerimath.github.io/equivalence/">Equivalence</a>, <a href="http://primerimath.github.io/the-integers/">The Integers</a>.</li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<p>Have a topic you want us to cover? Let us know in <a href="https://forms.gle/vFN8p4bdLeqKpsZk6">this form</a>!</p>
+
+
+
+<h3>More lessons coming soon! Sign up for our mailing list to be the first to know about them.</h3>
+
+
+
+<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.8.7 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-283" method="post" data-id="283" data-name="Email List">
+<div class="mc4wp-form-fields">
+<p>
+    <label>First Name</label>
+    <input type="text" name="FNAME" required="">
+</p>
+<p>
+	<label>Email address: 
+		<input type="email" name="EMAIL" required="">
+</label>
+</p>
+
+<p>
+	<input type="submit" value="Sign up">
+</p>
+</div>
+<label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1662263750"><input type="hidden" name="_mc4wp_form_id" value="283"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
+</form>
+<!-- / Mailchimp for WordPress Plugin -->
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-139 page type-page status-publish hentry category-pure-math tag-undergraduate" id="post-139">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/set-theory/">Set Theory</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			
+<p></p>
+
+
+
+<h2>What is Set Theory?</h2>
+
+
+
+<p>Set theory studies sets, which are essentially unordered collections of objects. These objects could be anything from functions to integers to imaginary numbers. Set theory has quite a foundational role in mathematics, as it is helpful background for many different fields in higher mathematics, including <a href="http://primerimath.github.io/set-theory">group theory</a>, <a href="http://primerimath.github.io/ring-theory">ring theory</a>, and <a href="http://primerimath.github.io/topology">topology</a>. Sets are also very commonly used to signify functions, such as a function <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-396ca3419aa3d1a120daf784f30faaf2_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#102;" title="Rendered by QuickLaTeX.com" height="16" width="10" style="vertical-align: -4px;"> which maps from some input set <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5775ec9639adb62e2799fe592cd9b3ce_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;" title="Rendered by QuickLaTeX.com" height="13" width="13" style="vertical-align: 0px;"> to some output set <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-dee4a55513483eb72c768de2cc52bccd_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#66;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">.</p>
+
+
+
+<h2>Basic operations and properties of sets</h2>
+
+
+
+<p>An example of a set is <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-27db0ad6e97b9d71ecb2ea7c590514b7_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#123;&#49;&#44;&#32;&#50;&#44;&#32;&#52;&#92;&#125;" title="Rendered by QuickLaTeX.com" height="19" width="58" style="vertical-align: -5px;">, where the numbers 1, 2, and 4 are referred to elements of the set. <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a8b927c041aa605f7d91ab8acc3c1796_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#123;&#92;&#125;" title="Rendered by QuickLaTeX.com" height="19" width="16" style="vertical-align: -5px;"> denotes the empty set, or the set with no elements, and sets can also be elements of sets. For example, <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-7a35b74b74ef4fc01306ad9a87da600b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#123;&#92;&#123;&#49;&#44;&#32;&#50;&#92;&#125;&#44;&#32;&#92;&#123;&#51;&#44;&#32;&#52;&#92;&#125;&#92;&#125;" title="Rendered by QuickLaTeX.com" height="19" width="111" style="vertical-align: -5px;"> is a set, where its elements are <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-2e9bbf8ae4a58067b741ce3c9339bff9_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#123;&#49;&#44;&#32;&#50;&#92;&#125;" title="Rendered by QuickLaTeX.com" height="19" width="42" style="vertical-align: -5px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-c300156fa59c0968f3f8c53d0dde6e48_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#123;&#51;&#44;&#32;&#52;&#92;&#125;" title="Rendered by QuickLaTeX.com" height="19" width="42" style="vertical-align: -5px;">.</p>
+
+
+
+<p>Set theory introduces the idea of logical operators, such as AND, OR, and NOT. Some helpful concepts to know for set theory are:</p>
+
+
+
+<ul>
+<li>
+<strong>Union:</strong> The union of two sets <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5775ec9639adb62e2799fe592cd9b3ce_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;" title="Rendered by QuickLaTeX.com" height="13" width="13" style="vertical-align: 0px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-dee4a55513483eb72c768de2cc52bccd_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#66;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">, written as <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-2f0390da4d9c583b7e8198de4ad3f2b8_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;&#32;&#92;&#99;&#117;&#112;&#32;&#66;" title="Rendered by QuickLaTeX.com" height="13" width="47" style="vertical-align: 0px;"> denotes all the elements in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5775ec9639adb62e2799fe592cd9b3ce_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;" title="Rendered by QuickLaTeX.com" height="13" width="13" style="vertical-align: 0px;">, <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-dee4a55513483eb72c768de2cc52bccd_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#66;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">, or both. This corresponds to the AND operation.</li>
+<li>
+<strong>Intersection:</strong> <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-1114a843341dd3819edf27216d23c398_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;&#32;&#92;&#99;&#97;&#112;&#32;&#66;" title="Rendered by QuickLaTeX.com" height="13" width="47" style="vertical-align: 0px;"> denotes all the elements in both sets <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5775ec9639adb62e2799fe592cd9b3ce_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;" title="Rendered by QuickLaTeX.com" height="13" width="13" style="vertical-align: 0px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-dee4a55513483eb72c768de2cc52bccd_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#66;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">.</li>
+<li>
+<strong>Complement:</strong> <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a34d962e23201ee580e012752912197c_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;&#32;&#92;&#92;&#32;&#66;" title="Rendered by QuickLaTeX.com" height="35" width="14" style="vertical-align: 0px;">, or the complement of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-dee4a55513483eb72c768de2cc52bccd_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#66;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5775ec9639adb62e2799fe592cd9b3ce_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;" title="Rendered by QuickLaTeX.com" height="13" width="13" style="vertical-align: 0px;">,  denotes all the elements in both sets <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-5775ec9639adb62e2799fe592cd9b3ce_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#65;" title="Rendered by QuickLaTeX.com" height="13" width="13" style="vertical-align: 0px;"> which are not in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-dee4a55513483eb72c768de2cc52bccd_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#66;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">.</li>
+</ul>
+
+
+
+<h2>Prerequisites/What I need to know</h2>
+
+
+
+<p>There are really no prerequisites for set theory, which is what makes it a great place to start in pure math. Some basic background knowledge such as the rational and real numbers as well as of functions is helpful, but not required to learn basic set theory.</p>
+
+
+
+<p>Set theory is overall a great foundational subject, but also can be studied as its own subject.</p>
+
+
+
+<h2>Resources</h2>
+
+
+
+<ul>
+<li><a href="https://plato.stanford.edu/entries/set-theory/basic-set-theory.html#:~:text=to%20Set%20Theory-,Basic%20Set%20Theory,that%20of%20elementhood%2C%20or%20membership.">A thorough introduction to set theory from Stanford</a></li>
+<li>
+<a href="https://www.math.uh.edu/~dlabate/settheory_Ashlock.pdf">Paper introducing set theory</a> (more technical than the one above)</li>
+<li><a href="https://www.geeksforgeeks.org/set-theory/">Quicker, more high-level article from GeeksForGeeks </a></li>
+<li><a href="https://www.youtube.com/watch?v=vGelH3Jibt4">Video introducing set theory</a></li>
+<li>Another <a href="https://www.youtube.com/watch?v=tyDKR4FG3Yw">video introducing set theor</a>y</li>
+</ul>
+
+
+
+<p>Skimming these resources should be enough to give a basic background in set theory which can be applied to more advanced endeavours.</p>
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-105 page type-page status-publish hentry category-pure-math tag-high-school tag-middle-school tag-number-theory" id="post-105">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/the-integers/">The integers</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<h2>Construction of the Integers</h2>
+<p>You may have heard of the integers before. Namely, it&#8217;s the set of numbers </p>
+<p class="ql-center-displayed-equation" style="line-height: 16px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-1ca7b5ff6f1a388cfab302166710e2b9_l3.png" height="16" width="162" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#92;&#100;&#111;&#116;&#115;&#44;&#32;&#45;&#50;&#44;&#32;&#45;&#49;&#44;&#32;&#48;&#44;&#32;&#49;&#44;&#32;&#50;&#44;&#92;&#100;&#111;&#116;&#115;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p> stretching on infinitely. But what fundamental properties does this amazing set satisfy? How much can we derive based on these axioms? Are the theorems we see and take for granted really trivial?</p>
+<p>The integers, commonly denoted as <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-deedfef76383ebf0489d6743f90b0e47_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">, are governed by two operations: <strong>addition</strong> (<img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-3dfd460fde43aac7712892b19b8f500e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#43;" title="Rendered by QuickLaTeX.com" height="13" width="13" style="vertical-align: -2px;">) and <strong>multiplication</strong> (<img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-6b329ed79eac7bd3f40d153faeb6b24a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#42;" title="Rendered by QuickLaTeX.com" height="9" width="7" style="vertical-align: 0px;">). Specifically, we have <strong>additive and multiplicative closure</strong>, which means </p>
+<p class="ql-center-displayed-equation" style="line-height: 19px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-1140e9be16f55a0c3d8ac8a909ccecba_l3.png" height="19" width="230" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#40;&#97;&#43;&#98;&#41;&#44;&#92;&#44;&#32;&#40;&#97;&#42;&#98;&#41;&#92;&#105;&#110;&#92;&#90;&#92;&#32;&#92;&#102;&#111;&#114;&#97;&#108;&#108;&#92;&#44;&#32;&#97;&#44;&#98;&#92;&#105;&#110;&#32;&#92;&#90;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p> This means that if we take two integers <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-2be7766f1e534b8da565c91eca7a3d64_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;" title="Rendered by QuickLaTeX.com" height="8" width="9" style="vertical-align: 0px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-8d1e17802ee70eb95f741706800a8c8d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#98;" title="Rendered by QuickLaTeX.com" height="12" width="8" style="vertical-align: 0px;">, their sum <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4e1acfaf4de0345783f645d50fa0ef9a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#43;&#98;" title="Rendered by QuickLaTeX.com" height="14" width="39" style="vertical-align: -2px;"> and their product <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-9caa263a9c67d71e0782ffabb99ecbf1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#42;&#98;" title="Rendered by QuickLaTeX.com" height="12" width="34" style="vertical-align: 0px;"> are integers as well. We also quickly see that the integers form a ring, as for all <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a8d4fa9b6141c366d228928d944b99cc_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#44;&#98;&#44;&#99;&#92;&#105;&#110;&#32;&#92;&#90;" title="Rendered by QuickLaTeX.com" height="16" width="74" style="vertical-align: -4px;"> we have the following properties:</p>
+<p class="ql-center-displayed-equation" style="line-height: 204px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-c9f95da4ca6142cf43c9d71f400a98f2_l3.png" height="204" width="513" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#98;&#101;&#103;&#105;&#110;&#123;&#97;&#108;&#105;&#103;&#110;&#42;&#125; &#92;&#116;&#101;&#120;&#116;&#98;&#102;&#123;&#67;&#111;&#109;&#109;&#117;&#116;&#97;&#116;&#105;&#118;&#105;&#116;&#121;&#58;&#125;&#92;&#32;&#38;&#32;&#97;&#43;&#98;&#32;&#61;&#32;&#98;&#43;&#97;&#32;&#92;&#92; &#38;&#32;&#97;&#42;&#98;&#32;&#61;&#32;&#98;&#42;&#97;&#32;&#92;&#92; &#92;&#116;&#101;&#120;&#116;&#98;&#102;&#123;&#65;&#115;&#115;&#111;&#99;&#105;&#97;&#116;&#105;&#118;&#105;&#116;&#121;&#58;&#125;&#92;&#32;&#38;&#32;&#40;&#97;&#43;&#98;&#41;&#43;&#99;&#32;&#61;&#32;&#97;&#43;&#40;&#98;&#43;&#99;&#41;&#32;&#92;&#92; &#38;&#32;&#40;&#97;&#42;&#98;&#41;&#42;&#99;&#32;&#61;&#32;&#97;&#42;&#40;&#98;&#42;&#99;&#41;&#32;&#92;&#92; &#92;&#116;&#101;&#120;&#116;&#98;&#102;&#123;&#68;&#105;&#115;&#116;&#114;&#105;&#98;&#117;&#116;&#105;&#118;&#105;&#116;&#121;&#58;&#125;&#92;&#32;&#38;&#32;&#97;&#42;&#40;&#98;&#43;&#99;&#41;&#32;&#61;&#32;&#40;&#97;&#42;&#98;&#41;&#43;&#40;&#97;&#42;&#99;&#41;&#32;&#92;&#92; &#92;&#116;&#101;&#120;&#116;&#98;&#102;&#123;&#90;&#101;&#114;&#111;&#58;&#125;&#92;&#32;&#38;&#32;&#92;&#116;&#101;&#120;&#116;&#123;&#84;&#104;&#101;&#114;&#101;&#32;&#101;&#120;&#105;&#115;&#116;&#115;&#32;&#97;&#110;&#32;&#101;&#108;&#101;&#109;&#101;&#110;&#116;&#32;&#48;&#32;&#115;&#117;&#99;&#104;&#32;&#116;&#104;&#97;&#116;&#125;&#92;&#32;&#97;&#43;&#48;&#61;&#97;&#32;&#92;&#92; &#92;&#116;&#101;&#120;&#116;&#98;&#102;&#123;&#79;&#110;&#101;&#58;&#125;&#92;&#32;&#38;&#32;&#92;&#116;&#101;&#120;&#116;&#123;&#84;&#104;&#101;&#114;&#101;&#32;&#101;&#120;&#105;&#115;&#116;&#115;&#32;&#97;&#110;&#32;&#101;&#108;&#101;&#109;&#101;&#110;&#116;&#32;&#49;&#32;&#115;&#117;&#99;&#104;&#32;&#116;&#104;&#97;&#116;&#125;&#92;&#32;&#97;&#42;&#49;&#61;&#97;&#32;&#92;&#92; &#92;&#116;&#101;&#120;&#116;&#98;&#102;&#123;&#78;&#101;&#103;&#97;&#116;&#105;&#118;&#105;&#116;&#121;&#58;&#125;&#92;&#32;&#38;&#32;&#92;&#116;&#101;&#120;&#116;&#123;&#84;&#104;&#101;&#114;&#101;&#32;&#101;&#120;&#105;&#115;&#116;&#115;&#32;&#97;&#110;&#32;&#101;&#108;&#101;&#109;&#101;&#110;&#116;&#125;&#92;&#32;&#97;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#92;&#32;&#92;&#116;&#101;&#120;&#116;&#123;&#115;&#117;&#99;&#104;&#32;&#116;&#104;&#97;&#116;&#125;&#92;&#32;&#97;&#43;&#97;&#94;&#92;&#112;&#114;&#105;&#109;&#101;&#32;&#61;&#32;&#48; &#92;&#101;&#110;&#100;&#123;&#97;&#108;&#105;&#103;&#110;&#42;&#125;" title="Rendered by QuickLaTeX.com"></p>
+<p>With the integers defined, we now look at one of its special subsets: the <strong>positive integers</strong>. How do we define positivity? We cannot simply say an integer is positive when it&#8217;s greater than 0, as we have not defined the notion of order in the integers, and thus cannot say when integers are greater or less than each other.</p>
+<p><strong>Exercise:</strong> Is there a way to define &#8220;greater than&#8221; or &#8220;less than&#8221; with our above axioms?</p>
+<p>Let <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-adc87d4b711f1298abc8510e74b5af40_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#83;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> be a subset of the integers that is closed under addition and multiplication. Remember that this means if we have <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-50ea9c619e97e4ebb5b4d74b21b99a7d_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#44;&#98;&#92;&#105;&#110;&#32;&#83;" title="Rendered by QuickLaTeX.com" height="16" width="59" style="vertical-align: -4px;">, then <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4e1acfaf4de0345783f645d50fa0ef9a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#43;&#98;" title="Rendered by QuickLaTeX.com" height="14" width="39" style="vertical-align: -2px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-9caa263a9c67d71e0782ffabb99ecbf1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#42;&#98;" title="Rendered by QuickLaTeX.com" height="12" width="34" style="vertical-align: 0px;"> must also be in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-adc87d4b711f1298abc8510e74b5af40_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#83;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">. But this is not enough to construct the positive integers; the integers is a subset of the integers satisfying additive and multiplicative closure. Thus, we stipulate further that the identity <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-75e54abee44e228226ce7184b15bf3a6_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#48;" title="Rendered by QuickLaTeX.com" height="12" width="9" style="vertical-align: 0px;"> cannot be in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-adc87d4b711f1298abc8510e74b5af40_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#83;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">, and that for any integer <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-2be7766f1e534b8da565c91eca7a3d64_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;" title="Rendered by QuickLaTeX.com" height="8" width="9" style="vertical-align: 0px;">, only one of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-2be7766f1e534b8da565c91eca7a3d64_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;" title="Rendered by QuickLaTeX.com" height="8" width="9" style="vertical-align: 0px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-d31711124cbaeded83470bbe9e42e2eb_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#45;&#97;" title="Rendered by QuickLaTeX.com" height="8" width="22" style="vertical-align: 0px;"> lie in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-adc87d4b711f1298abc8510e74b5af40_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#83;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> (here, <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-d31711124cbaeded83470bbe9e42e2eb_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#45;&#97;" title="Rendered by QuickLaTeX.com" height="8" width="22" style="vertical-align: 0px;"> refers to the additive inverse guaranteed by Negativity).</p>
+<p><strong>Exercise:</strong> Does the positive integers satisfy these two properties?<br>
+<strong>Exercise:</strong> How do we know that <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a779e6112141a528a63473b48801364f_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#49;&#44;&#32;&#45;&#50;" title="Rendered by QuickLaTeX.com" height="16" width="38" style="vertical-align: -4px;"> are not both in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-adc87d4b711f1298abc8510e74b5af40_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#83;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">?</p>
+<p><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-adc87d4b711f1298abc8510e74b5af40_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#83;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;"> can either be the positive integers or the negative integers. To simplify things, we call the positive integers <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f31e9331fdfbfb84de4e19a0f12c2483_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;&#94;&#43;" title="Rendered by QuickLaTeX.com" height="15" width="22" style="vertical-align: 0px;"> and the negative integers <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-26fca3eeedc3054f281bc2effbe9ea51_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;&#94;&#45;" title="Rendered by QuickLaTeX.com" height="12" width="22" style="vertical-align: 0px;">. Now we can define the symbols <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-697ee3dd0f7cd0e7132c70e3cf049782_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#62;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: -2px;"> and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-de609a13f214c7df50725220a7f2072e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#60;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: -2px;">. Let <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a355b875b8ca369a80bc3ca4299b8315_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#44;&#98;&#44;&#112;" title="Rendered by QuickLaTeX.com" height="16" width="42" style="vertical-align: -4px;"> be integers where <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-4c5d54911d045783025701653f002e8b_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#43;&#112;&#61;&#98;" title="Rendered by QuickLaTeX.com" height="16" width="72" style="vertical-align: -4px;">. We say <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-a934d898510ae56319f722912c860997_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#60;&#98;" title="Rendered by QuickLaTeX.com" height="14" width="41" style="vertical-align: -2px;"> if <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-ea57bc97e8d94bf482f0a4f9cd063d14_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#112;&#92;&#105;&#110;&#32;&#92;&#90;&#94;&#43;" title="Rendered by QuickLaTeX.com" height="19" width="53" style="vertical-align: -4px;">, and <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-522e9f1d9ecd0554b64c0f027b1f40b2_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#62;&#98;" title="Rendered by QuickLaTeX.com" height="14" width="41" style="vertical-align: -2px;"> if <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-906350c018a3abb0c1374e8a6323593f_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#112;&#92;&#105;&#110;&#32;&#92;&#90;&#94;&#45;" title="Rendered by QuickLaTeX.com" height="16" width="53" style="vertical-align: -4px;">. </p>
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-89 page type-page status-publish hentry category-pure-math tag-high-school" id="post-89">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/knot-theory/">Knot Theory</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			
+<p style="text-align: center;"><em>Written by Kevin Xu</em></p>
+<p>If you&#8217;ve ever tied your shoes or made a bracelet, you probably have heard of <strong>knots</strong>. You start out with a line and then fold it over and under itself until it forms a shape for you to use. However, this is not quite correct in the mathematical world. In mathematics, a <strong>knot</strong> is an embedding of a circle in the 3D space. You may be confused about this definition, but the gist of it is that a <strong>knot</strong> is a connected strand that goes over and under itself. Here is the simplest kind of knot:</p>
+
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img src="data:image/jpeg;base64,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" alt="">
+<figcaption><strong>Figure 1:</strong> The unknot</figcaption>
+</figure>
+</div>
+
+
+
+<p>This knot is called the <strong>trivial knot</strong> or the <strong>unknot</strong>. Here is the <strong>unknot</strong>, but in a slightly different form:</p>
+
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img loading="lazy" width="223" height="195" class="wp-image-90" src="http://primerimath.github.io/wp-content/uploads/2020/07/unknot-1.jpg" alt="">
+<figcaption><strong>Figure 2:</strong> Also the knot</figcaption>
+</figure>
+</div>
+
+
+
+<p>A little harder to see, right? We consider this to be the unknot because it can be twisted and turned in 3D space to get the unknot. These twists and turns form <strong>equivalence</strong> <strong>classes</strong> for knots. When twisting and turning, there are three moves called <strong>Reidemeister moves</strong> that we can make:</p>
+
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img src="https://mathworld.wolfram.com/images/eps-gif/ReidemeisterMoves_1001.gif" alt="">
+<figcaption><strong>Figure 3</strong>: The Reidemeister moves</figcaption>
+</figure>
+</div>
+
+
+
+<p>It turns out that all possible transformations of twisting and turning a knot can be expressed in these three moves. But how does this have to do with proving two knots are <strong>equivalent</strong>? Notice that if we had some characteristic of a knot that was constant under these three moves, then every knot in a knot&#8217;s equivalent class shares the same characteristic, called an <strong>invariant</strong>.</p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p>We can easily find some simple knot invariants. For a knot, we define an <strong>intersection</strong> to be a place where the knot goes over or under itself. One invariant would be the minimum number of intersections in all knots equivalent to it. Of course this characteristic would stay constant for all knots in its equivalence class; they all point to the same knot!</p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p>There are many complex and invariants in knot theory, for example <strong>tricolorability</strong>, or even <strong>knot polynomials </strong>such as the Jones and Alexander polynomials. Knot theory is a fascinating subject that bears a lot of similarity to braid theory, and thus has applications in both physics and cryptography.</p>
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-77 page type-page status-publish hentry category-pure-math" id="post-77">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/ring-theory/">Ring Theory</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p></p>
+
+<h2>Introduction</h2>
+
+
+
+<p>Ring theory is a branch of mathematics that is closely interlinked with group theory. To create a ring, we take a group with its &#8220;addition&#8221; operation, and add &#8220;multiplication&#8221; to the mix! We say that this group is a <strong>ring</strong> if we can apply the distribution law like standard addition and multiplication. If the nonzero elements of the ring form a group under multiplication, then we call the ring a <strong>field</strong>. It is important to include this &#8220;nonzero&#8221; part, because <strong>0</strong>, or the identity of the group, does not have an inverse under multiplication. Instead, the identity of the multiplicative group is another element, commonly referred to as <strong>1</strong>.</p>
+<p>
+
+</p>
+<h2>Examples</h2>
+<p>
+
+</p>
+<p>The integers, rationals, and reals are all examples of rings, using standard addition and multiplication. Another example is the set of n by n matrices under matrix addition and multiplication. Note that the rationals and reals are also fields, as we can take the multiplicative inverse of every nonzero element.</p>
+<p>
+
+</p>
+<h2>Extensions</h2>
+<p>
+
+</p>
+<p>Rings can contain other rings, including the <strong>trivial ring </strong>(only containing the additive and multiplicative identity) and the entire ring. These subsets are called <strong>subrings </strong>if they are rings and <strong>subfields</strong> if they are fields. </p>
+<p><strong>Exercise: </strong>Verify that the subrings of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-deedfef76383ebf0489d6743f90b0e47_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">, the integers, are the integer multiples of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-deedfef76383ebf0489d6743f90b0e47_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#90;" title="Rendered by QuickLaTeX.com" height="12" width="12" style="vertical-align: 0px;">.</p>
+<p>One way to construct rings is to take a ring <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-072d379494e1492942e0a2c90cc044d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;"> and a subring <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-2b1e120ba4c686cab8803f2ced2d786a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#81;" title="Rendered by QuickLaTeX.com" height="16" width="14" style="vertical-align: -4px;">, and then construct </p>
+<p class="ql-center-displayed-equation" style="line-height: 50px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-f5647f8198926f16da40b7a3a41f82eb_l3.png" height="50" width="274" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#80;&#91;&#88;&#93;&#32;&#61;&#32;&#92;&#123;&#92;&#115;&#117;&#109;&#95;&#123;&#107;&#61;&#48;&#125;&#94;&#110;&#32;&#102;&#95;&#107;&#88;&#94;&#107;&#92;&#109;&#105;&#100;&#32;&#102;&#95;&#48;&#44;&#92;&#100;&#111;&#116;&#115;&#44;&#102;&#95;&#110;&#92;&#105;&#110;&#32;&#70;&#92;&#125;&#92;&#93;" title="Rendered by QuickLaTeX.com"></p>
+<p>for some element <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-3773b9f8ef5656c7583b76e8fb4d7275_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#88;&#92;&#105;&#110;&#32;&#81;" title="Rendered by QuickLaTeX.com" height="16" width="52" style="vertical-align: -4px;">. The resulting set is a <strong>ring extension</strong> of <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-072d379494e1492942e0a2c90cc044d1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;" title="Rendered by QuickLaTeX.com" height="12" width="14" style="vertical-align: 0px;">. If <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-832cd90a3cf89c6e37145284fcb1fd36_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#88;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;"> is algebraic in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-2b1e120ba4c686cab8803f2ced2d786a_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#81;" title="Rendered by QuickLaTeX.com" height="16" width="14" style="vertical-align: -4px;">, then <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-bc40bb5d6be743b9445373b9c249ea37_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#40;&#88;&#41;" title="Rendered by QuickLaTeX.com" height="19" width="43" style="vertical-align: -5px;"> is actually a <strong>field extension</strong>. Naturally, we could replace <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-832cd90a3cf89c6e37145284fcb1fd36_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#88;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;"> with a set as well, taking <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-bc40bb5d6be743b9445373b9c249ea37_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#80;&#40;&#88;&#41;" title="Rendered by QuickLaTeX.com" height="19" width="43" style="vertical-align: -5px;"> as the set of all linear combinations of elements in <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-832cd90a3cf89c6e37145284fcb1fd36_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#88;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;">. </p>
+<p><strong>Exercise: </strong>The complex numbers <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-91b97278e661221d99044f63e5d54322_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#109;&#97;&#116;&#104;&#98;&#98;&#32;&#67;" title="Rendered by QuickLaTeX.com" height="12" width="13" style="vertical-align: 0px;"> can be expressed as a field extension of the real numbers <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-3e977515fdd2c7cd988839333dd64c71_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#82;" title="Rendered by QuickLaTeX.com" height="12" width="13" style="vertical-align: 0px;">. What is the <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-832cd90a3cf89c6e37145284fcb1fd36_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#88;" title="Rendered by QuickLaTeX.com" height="12" width="16" style="vertical-align: 0px;"> in this case?</p>
+<p>
+
+</p>
+<h2>Applications</h2>
+<p></p>
+<p>Fields and their extensions are widely used in many fields relating to algebra and number theory, including abstract algebra and Galois theory. They are one of the most fundamental mathematical objects, and are a way to describe the overall structure of sets that <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-c79b0522cf9c341acd369c7d35b52e24_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#70;&#95;&#112;" title="Rendered by QuickLaTeX.com" height="18" width="18" style="vertical-align: -6px;"> (integers modulo <img loading="lazy" src="http://primerimath.github.io/wp-content/ql-cache/quicklatex.com-41bacf62aaa54f88523d1da4ced620e6_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#112;" title="Rendered by QuickLaTeX.com" height="12" width="10" style="vertical-align: -4px;">), the rationals, and others share.</p>
+<p></p>
+<h2>Prerequisites/What you need to know</h2>
+<p>
+
+</p>
+<p>Rings do not take a lot of background in mathematics to understand. However, ring theory can be thought of as an expansion to <a href="#">group theory</a> that adds on an additional binary operation to the set.</p>
+<p>
+
+</p>
+<h3>Read more</h3>
+<p></p>
+<p> </p>
+<div class="read-more-button-wrap"><a href="http://primerimath.github.io/ring-theory/#more-77" class="more-link"><span class="faux-button">Continue reading</span> <span class="screen-reader-text">&#8220;Ring Theory&#8221;</span></a></div>
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-63 page type-page status-publish hentry category-pure-math tag-undergraduate" id="post-63">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/topology/">Topology</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			
+<h2>What is Topology?</h2>
+
+
+
+<p>Topology deals with &#8220;the properties that are preserved through deformations, twistings, and stretchings of objects&#8221;. Without delving into too many specifics: it deals with manifolds, which you can stretch and distort in any way, as long as you do not make any rips or glue any parts of the manifold together. Specifically, surfaces are a type of manifold. They are made of 2-dimensional shapes but exist in 3-d. You can think of this like creating a paper cube &#8211; it&#8217;s made out of something 2-dimensional (and is thus &#8220;hollow&#8221;) but it is still 3-dimensional.</p>
+
+
+
+<h2>Surfaces</h2>
+
+
+
+<p>Think about a circle. Topologically, since we are allowed to stretch and distort it, it is the same as an oval (think about grabbing it with your hands and pulling them apart) or even a square (pinching 4 points and pulling apart to make a square). A circle with a hole in it is even the same as a cylinder (pull the hole up to the top and pinch the outer edge of the circle down)</p>
+
+
+
+<p>We can get lots of interesting results when we think about surfaces topologically. One other curious structure is the Mobius strip, which you can get if you glue the ends of a paper strip together with one twist. This results in a surface that has only one side! Try drawing a line on the front side of a Mobius strip until it reaches itself &#8211; this should never reach the back side. But you&#8217;ll find that the back side is the front side &#8211; this is one of the curious properties of the mobius strip.</p>
+
+
+
+<h2>Point-Set and Algebraic Topology</h2>
+
+
+
+<p>Topology comes in two different flavors, point-set and algebraic topology. Typically, one starts out with point-set topology and moves on to algebraic </p>
+
+
+
+<h2>Prerequisites</h2>
+
+
+
+<p>Topology is a challenging undergraduate course. Point-set topology does not really have prereqs other than &#8220;mathematical maturity&#8221; and being comfortable with proofs. Basic set theory is also helpful but not necessarily required.</p>
+
+
+
+<h2>Resources</h2>
+
+
+
+<ul>
+<li><a href="https://uwaterloo.ca/pure-mathematics/about-pure-math/what-is-pure-math/what-is-topology">More Detailed Overview of Topology</a></li>
+<li><a href="https://www.youtube.com/watch?v=VOKgMJEc_ro">Easy basic intro to Topology</a></li>
+<li>[Textbook] <em><a href="http://rads.stackoverflow.com/amzn/click/0131816292">Topology</a></em>, James Munkre</li>
+<li>[Textbook] <em><a href="http://rads.stackoverflow.com/amzn/click/0821838849">A First Course in Topology</a></em>, J. McCleary</li>
+<li>[Supplemental] <a href="https://www.youtube.com/watch?v=AmgkSdhK4K8">Intro to Topology</a> by 3Blue1Brown</li>
+<li>[Supplemental] <a href="https://www.youtube.com/watch?v=yuVqxCSsE7c">A topological approach to the Borsak-Ulam theorem</a> by 3Blue1Brown</li>
+</ul>
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-35 page type-page status-publish hentry category-pure-math tag-undergraduate" id="post-35">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">Categories</span>
+				<div class="entry-categories-inner">
+					<a href="http://primerimath.github.io/category/pure-math/" rel="category tag">Pure Math</a>				</div>
+<!-- .entry-categories-inner -->
+			</div>
+<!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="http://primerimath.github.io/group-theory/">Group Theory</a></h2>
+	</div>
+<!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<h2>What is a group?</h2>
+<p>Group theory is a subject associated with <a href="#">abstract algebra</a>, a core course in undergraduate math. It deals with structures called <strong>groups</strong>, which are a collection of objects that interact with each other using an <strong>operation</strong>. Examples of groups include the set of integers, the set of real numbers, and the set of possible rotations and reflections of a square. Groups obey the following characteristics:</p>
+<ul>
+<li>
+<strong>Closure: </strong>Performing the operation on two elements in a group results in an element that is in the group.</li>
+<li>
+<strong>Identity: </strong>The group has an <strong>identity</strong>, i.e. performing the operation on the identity and an element in the group results in the same element.</li>
+<li>
+<strong>Inverse: </strong>For every element in the group, there exists an element called the <strong>inverse</strong> such that the operation on an element and its inverse results in the identity.</li>
+</ul>
+<h2>Example of a group</h2>
+<p>One great example of a group is the integers under addition (a way of saying that the group operation is addition). The identity element would just be 0 (as 0 + any number is just that number). The inverse of a number n is just -n (since n + (-n) is 0, the identity). This group has infinite elements, but other groups can have a finite number of elements. One especially interesting group is a Rubik&#8217;s Cube &#8211; there are only a set number of twists you can make on a Rubik&#8217;s Cube, and their operation is <em>composition</em>.</p>
+<h2>Prerequisite/What I need to know</h2>
+<p>For group theory, there are really no prerequisites other than what could be called &#8220;mathematical maturity&#8221;. This means being comfortable with reading, understanding, and writing proofs. Some <a href="#">set theory</a> is also helpful, but not necessary to learn the subject. Beware: group theory is possibly one of the hardest math classes you can take. It&#8217;s not impossible to learn, but it strikes people as difficult because most people are not used to thinking about mathematics in this way. It&#8217;s very general and abstract, which makes it somewhat difficult to visualize, but the best way to become comfortable with it is to do practice problems that apply the concepts covered in these resources.</p>
+<h2>Group Theory Resources</h2>
+<ul>
+<li>
+<a href="https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6">Socratic &#8211; Abstract Algebra</a> (A video series that helps to explain some of the core concepts in abstract algebra &#8211; first 23 videos are on group theory)</li>
+<li>
+<a href="https://www.amazon.com/Contemporary-Abstract-Algebra-Joseph-Gallian/dp/1133599702">Contemporary Abstract Algebra by Joseph Gallian</a> (an introductory college-level text to group theory)</li>
+<li>
+<a href="https://www.amazon.com/Book-Abstract-Algebra-Second-Mathematics/dp/0486474178">A book of Abstract Algebra by Charles Pinter</a> (another textbook)</li>
+<li>
+<a href="https://usamo.files.wordpress.com/2017/08/napkin-2017-08-15.pdf" rel="nofollow" data-href-url="https://usamo.files.wordpress.com/2017/08/napkin-2017-08-15.pdf">Even Chen&#8217;s Napkin project</a> (Chapters 1, 3, 10, 11)</li>
+<li>
+<a href="https://www.youtube.com/watch?v=jsSeoGpiWsw">John Conway &#8211; Monster Group (Numberphile)</a> (an interesting supplemental video)</li>
+<li>
+<a href="https://web.mit.edu/sp.268/www/rubik.pdf">Rubik&#8217;s cube group (MIT)</a> (A paper expanding on the idea of a rubik&#8217;s cube being a group)</li>
+<li>
+<a href="https://www.youtube.com/watch?v=FW2Hvs5WaRY">Ted-Ed intro to group theory</a> (A fascinating video that touches on the Rubik&#8217;s cube group concept and what got me into group theory)</li>
+</ul>
+
+		</div>
+<!-- .entry-content -->
+
+	</div>
+<!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div>
+<!-- .section-inner -->
+
+	
+</article><!-- .post -->
+
+	
+	<div class="pagination-wrapper section-inner">
+
+		<hr class="styled-separator pagination-separator is-style-wide" aria-hidden="true">
+
+		
+	<nav class="navigation pagination" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links">
+<span class="prev page-numbers placeholder" aria-hidden="true"><span aria-hidden="true">&larr;</span> <span class="nav-prev-text">Newer <span class="nav-short">Posts</span></span></span><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="http://primerimath.github.io/category/pure-math/page/2/">2</a>
+<a class="next page-numbers" href="http://primerimath.github.io/category/pure-math/page/2/"><span class="nav-next-text">Older <span class="nav-short">Posts</span></span> <span aria-hidden="true">&rarr;</span></a>
+</div>
+	</nav>
+	</div>
+<!-- .pagination-wrapper -->
+
+	
+</main><!-- #site-content -->
+
+
+	<div class="footer-nav-widgets-wrapper header-footer-group">
+
+		<div class="footer-inner section-inner">
+
+							<div class="footer-top has-social-menu">
+										
+						<nav aria-label="Social links" class="footer-social-wrapper">
+
+							<ul class="social-menu footer-social reset-list-style social-icons fill-children-current-color">
+
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://www.facebook.com/primeriofficial"><span class="screen-reader-text">Facebook</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="https://www.instagram.com/primeriofficial"><span class="screen-reader-text">Instagram</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="mailto:contact@primeri.org"><span class="screen-reader-text">Email</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20,4H4C2.895,4,2,4.895,2,6v12c0,1.105,0.895,2,2,2h16c1.105,0,2-0.895,2-2V6C22,4.895,21.105,4,20,4z M20,8.236l-8,4.882 L4,8.236V6h16V8.236z"></path></svg></a></li>
+
+							</ul>
+<!-- .footer-social -->
+
+						</nav><!-- .footer-social-wrapper -->
+
+									</div>
+<!-- .footer-top -->
+
+			
+			
+				<aside class="footer-widgets-outer-wrapper" role="complementary">
+
+					<div class="footer-widgets-wrapper">
+
+						
+							<div class="footer-widgets column-one grid-item">
+								<div class="widget widget_text"><div class="widget-content">
+<h2 class="widget-title subheading heading-size-3">About This Site</h2>			<div class="textwidget">
+<p>We are Primeri, a site providing free competition and academia math resources based on our experience for elementary, middle, and high schoolers.</p>
+</div>
+		</div></div>							</div>
+
+						
+						
+					</div>
+<!-- .footer-widgets-wrapper -->
+
+				</aside><!-- .footer-widgets-outer-wrapper -->
+
+			
+		</div>
+<!-- .footer-inner -->
+
+	</div>
+<!-- .footer-nav-widgets-wrapper -->
+
+
+			<footer id="site-footer" role="contentinfo" class="header-footer-group">
+
+				<div class="section-inner">
+
+					<div class="footer-credits">
+
+						<p class="footer-copyright">&copy;
+							2022							<a href="http://primerimath.github.io/">primeri</a>
+						</p>
+<!-- .footer-copyright -->
+
+					
+
+					</div>
+<!-- .footer-credits -->
+
+					<a class="to-the-top" href="#site-header">
+						<span class="to-the-top-long">
+							To the top <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-long -->
+						<span class="to-the-top-short">
+							Up <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-short -->
+					</a><!-- .to-the-top -->
+
+				</div>
+<!-- .section-inner -->
+
+			</footer><!-- #site-footer -->
+
+		<script>(function() {function maybePrefixUrlField() {
+	if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if (urlFields) {
+	for (var j=0; j < urlFields.length; j++) {
+		urlFields[j].addEventListener('blur', maybePrefixUrlField);
+	}
+}
+})();</script><script defer src="http://primerimath.github.io/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.7" id="mc4wp-forms-api-js"></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	
+	</body>
+
+
+<!-- Dynamic page generated in 0.916 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2022-09-04 03:55:50 -->
+
+<!-- super cache -->
+</html>

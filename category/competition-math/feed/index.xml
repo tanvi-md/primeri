@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title> | primeri</title>
+	<atom:link href="http://primerimath.github.io/category/competition-math/feed/" rel="self" type="application/rss+xml" />
+	<link>http://primerimath.github.io/</link>
+	<description>Mathematics for elementary through high school students.</description>
+	<lastBuildDate>Tue, 09 Mar 2021 18:58:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>http://primerimath.github.io/wp-content/uploads/2020/09/cropped-primeri__2_-removebg-preview-32x32.png</url>
+	<title> | primeri</title>
+	<link>http://primerimath.github.io/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Recursion</title>
+		<link>http://primerimath.github.io/recursion/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=recursion</link>
+		
+		<dc:creator><![CDATA[Neil Shah]]></dc:creator>
+		<pubDate>Thu, 12 Nov 2020 06:03:37 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=490</guid>
+
+					<description><![CDATA[This handout deals with recurrence relations, and is preparation for applying these techniques on competitions at a similar level to the AMC10/12 and the AIME. &#160; Recursion (3)]]></description>
+										<content:encoded><![CDATA[<p>This handout deals with recurrence relations, and is preparation for applying these techniques on competitions at a similar level to the AMC10/12 and the AIME.</p>
+<p>&nbsp;</p>
+<figure><object class="embed-pdf-viewer" data="http://primerimath.github.io/wp-content/uploads/2020/11/Recursion-3.pdf#scrollbar=1&#038;toolbar=1"type="application/pdf" height=435 width=580 title="Recursion (3)"></object><iframe class="embed-pdf-viewer" src="https://docs.google.com/viewer?url=http%3A%2F%2Fprimerimath.github.io%2Fwp-content%2Fuploads%2F2020%2F11%2FRecursion-3.pdf&amp;embedded=true" frameborder="0" style="height:435px;width:580px;" title="Recursion (3)"></iframe></p>
+<p><a href="http://primerimath.github.io/wp-content/uploads/2020/11/Recursion-3.pdf" title="Recursion (3)">Recursion (3)</a></p>
+</figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Middle Five</title>
+		<link>http://primerimath.github.io/middle-five/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=middle-five</link>
+		
+		<dc:creator><![CDATA[Kevin Xu]]></dc:creator>
+		<pubDate>Sat, 17 Oct 2020 04:37:24 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[High School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=405</guid>
+
+					<description><![CDATA[Below are sets of videos discussing the &#8220;Middle Five&#8221; (or problems 6-10) of the AIME starting from 2002. These videos serve to help you get a better understanding of not only the solution, but also the thinking process and motivation behind it. Solving these problems is crucial to taking that next step to qualifying for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Below are sets of videos discussing the &#8220;Middle Five&#8221; (or problems 6-10) of the AIME starting from 2002. These videos serve to help you get a better understanding of not only the solution, but also the thinking process and motivation behind it. Solving these problems is crucial to taking that next step to qualifying for the USA(J)MO.</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><a href="http://primerimath.github.io/middle-five/2002-aime-i/">2002 AIME I</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Linear equations</title>
+		<link>http://primerimath.github.io/linear-equations/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=linear-equations</link>
+		
+		<dc:creator><![CDATA[Imaad Rana]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2020 21:27:55 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[Middle School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=398</guid>
+
+					<description><![CDATA[This video is the fourth in our series for middle school math and competition math and continues the lesson on linear equations. You can find more videos on our youtube channel.]]></description>
+										<content:encoded><![CDATA[
+<p>This video is the fourth in our series for middle school math and competition math and continues the lesson on linear equations.</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Linear Equations" width="580" height="326" src="https://www.youtube.com/embed/8BYq4FqEy5w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>You can find more videos on our <a href="https://www.youtube.com/channel/UCNb1cp6dWGmw8sIR02WKK8w">youtube channel</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Intro to Equations</title>
+		<link>http://primerimath.github.io/intro-to-equations/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=intro-to-equations</link>
+		
+		<dc:creator><![CDATA[Imaad Rana]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2020 21:26:25 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[Middle School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=396</guid>
+
+					<description><![CDATA[This video is the third in our series for middle school math and competition math and introduces equations and algebra. You can find more videos on our&#160;youtube channel.]]></description>
+										<content:encoded><![CDATA[
+<p>This video is the third in our series for middle school math and competition math and introduces equations and algebra.</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Intro to Equations Part 1" width="580" height="326" src="https://www.youtube.com/embed/5iJh7V_U_S4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>You can find more videos on our&nbsp;<a href="https://www.youtube.com/channel/UCNb1cp6dWGmw8sIR02WKK8w">youtube channel</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Symmetric Sums</title>
+		<link>http://primerimath.github.io/symmetric-sums/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=symmetric-sums</link>
+		
+		<dc:creator><![CDATA[Neil Shah]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2020 21:05:48 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[High School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=387</guid>
+
+					<description><![CDATA[This handout covers all of the material you need to know to solve most AMC and AIME problems that involve either Vieta&#8217;s Formulas or Newton Sums. These proofs and descriptions are also followed up by worked example problems as well as exercises left to the reader. Last Updated: March 9th, 2021]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-container-1 wp-block-group"><div class="wp-block-group__inner-container">
+<p>This handout covers all of the material you need to know to solve most AMC and AIME problems that involve either Vieta&#8217;s Formulas or Newton Sums. These proofs and descriptions are also followed up by worked example problems as well as exercises left to the reader.</p>
+<p>Last Updated: March 9th, 2021</p>
+
+
+
+<figure class="wp-block-embed-pdf-viewer-pdf wp-block-embed-pdf-viewer-pdf__content-wrapper"><object class="embed-pdf-viewer" data="http://primerimath.github.io/wp-content/uploads/2021/03/Symmetric-Sums-1.pdf#scrollbar=1&amp;toolbar=1" type="application/pdf" height="600" width="600" title=""></object><iframe loading="lazy" class="embed-pdf-viewer" src="https://docs.google.com/viewer?url=http%3A%2F%2Fprimerimath.github.io%2Fwp-content%2Fuploads%2F2021%2F03%2FSymmetric-Sums-1.pdf&amp;embedded=true" frameborder="0" height="600" width="600" title=""></iframe></figure>
+</div></div>
+
+
+
+<div class="wp-block-file"><a href="http://primerimath.github.io/wp-content/uploads/2021/03/Symmetric-Sums-1.pdf">Symmetric Sums</a><a href="http://primerimath.github.io/wp-content/uploads/2021/03/Symmetric-Sums-1.pdf" class="wp-block-file__button" download>Download</a></div>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Patterns</title>
+		<link>http://primerimath.github.io/patterns/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=patterns</link>
+		
+		<dc:creator><![CDATA[tanvi]]></dc:creator>
+		<pubDate>Sun, 04 Oct 2020 20:27:42 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[Elementary School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=368</guid>
+
+					<description><![CDATA[This video mainly talks about Gauss sums. The formula to find the sum of a sequence is&#160;n(n&#160;+ 1) / 2, where&#160;n&#160;is the length of the sequence. This video covers the concept of letter substitution, which comes up often in elementary competition math problems. Remember to use addition, subtraction, multiplication, and division rules while solving these [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>This video mainly talks about Gauss sums. The formula to find the sum of a sequence is&nbsp;<em>n</em>(<em>n</em>&nbsp;+ 1) / 2, where&nbsp;<em>n</em>&nbsp;is the length of the sequence.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Introduction to Patterns" width="580" height="435" src="https://www.youtube.com/embed/6aG1EXBf3I8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<p>This video covers the concept of letter substitution, which comes up often in elementary competition math problems. Remember to use addition, subtraction, multiplication, and division rules while solving these types of problems. They will help you narrow down what each letter stands for.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Patterns - Introduction to Letter Substitution" width="580" height="435" src="https://www.youtube.com/embed/THzT1XXIpmY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This video contains some competition-level problems of letter substitution. Again, use your operation rules to narrow down what each letter stands for. We highly recommend practicing this topic further, as it is almost guaranteed to come up in elementary contests.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Patterns - Problems with Letter Substitution" width="580" height="435" src="https://www.youtube.com/embed/hQgXxTp7qS0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Simplification</title>
+		<link>http://primerimath.github.io/simplification/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=simplification</link>
+		
+		<dc:creator><![CDATA[tanvi]]></dc:creator>
+		<pubDate>Sun, 04 Oct 2020 20:25:44 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[Elementary School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=366</guid>
+
+					<description><![CDATA[This video goes over PEMDAS (also known as &#8220;Please Excuse My Dear Aunt Sally&#8221;). The acronym stands for Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction. The acronym gives the order of priority of all operations. However, the priorities of multiplication and division can be switched (based on which comes first), as can the priorities of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>This video goes over PEMDAS (also known as &#8220;Please Excuse My Dear Aunt Sally&#8221;). The acronym stands for Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction. The acronym gives the order of priority of all operations. However, the priorities of multiplication and division can be switched (based on which comes first), as can the priorities of addition and subtraction.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Simplification Part 1 - Using PEMDAS and Order of Operations" width="580" height="435" src="https://www.youtube.com/embed/QL3mfhNlOvI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<p>In this video, we learn about GCF and LCM. GCF stands for Greatest Common Factor.</p>
+
+
+
+<p>In order to find the GCF of two or more numbers, list out all the prime factors and find the common ones between all numbers. Multiply these common factors to get the greatest common factor.</p>
+
+
+
+<p>In order to find the LCM of two or more numbers, list out all the prime factors, and for each factor, raise it to the power of the maximum number of times it appears in one of the numbers’ prime factorization. In order words, if 3 appears 3 times in 1 prime factorization but only 2 times in another, you need to take three 3’s to find the LCM.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Simplification Part 2 - LCM and GCF" width="580" height="435" src="https://www.youtube.com/embed/juKykeQogeg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<p>This video covers some competition-level practice problems. Be sure to follow the Order of Operations (PEMDAS). While trying to find a common denominator, be sure to find the LCM of all the original denominators.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Simplification Part 3 - Practice Problems" width="580" height="435" src="https://www.youtube.com/embed/vDkqJ4AJOPw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Divisibility Tricks</title>
+		<link>http://primerimath.github.io/divisibility-tricks/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=divisibility-tricks</link>
+		
+		<dc:creator><![CDATA[tanvi]]></dc:creator>
+		<pubDate>Sun, 04 Oct 2020 20:23:36 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[Elementary School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=364</guid>
+
+					<description><![CDATA[This video covers some basic divisibility tricks with 1, 2, 3, 4, and 5. Learn how to tell if a number is divisible by any of those 5 numbers. This video, similar to the last one, contains divisibility tricks and tips for the numbers 6 through 11. The rules for 7 and 11 are tricky; [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>This video covers some basic divisibility tricks with 1, 2, 3, 4, and 5. Learn how to tell if a number is divisible by any of those 5 numbers.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Divisibility Tricks - Part 1" width="580" height="435" src="https://www.youtube.com/embed/U_jbYiZgrpM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<p>This video, similar to the last one, contains divisibility tricks and tips for the numbers 6 through 11. The rules for 7 and 11 are tricky; be sure to practice these so they come naturally during a contest.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Divisibility Tricks - Part 2" width="580" height="435" src="https://www.youtube.com/embed/gNpQAURuKdo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>3D Geometry</title>
+		<link>http://primerimath.github.io/3d-geometry/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=3d-geometry</link>
+		
+		<dc:creator><![CDATA[tanvi]]></dc:creator>
+		<pubDate>Sun, 04 Oct 2020 20:22:08 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[Elementary School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=362</guid>
+
+					<description><![CDATA[This video uses a 3-D shape builder to describe the orientation of 3-D shapes. The important thing to remember is that since there are three dimensions, there will be three measurements: length, width, and height. This video covers how to find the surface area and volume of cones, cylinders, and rectangular prisms along with cubes. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>This video uses a 3-D shape builder to describe the orientation of 3-D shapes. The important thing to remember is that since there are three dimensions, there will be three measurements: length, width, and height.</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="3D Geometry - Part 1" width="580" height="435" src="https://www.youtube.com/embed/4uJL2ytC-JU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<p>This video covers how to find the surface area and volume of cones, cylinders, and rectangular prisms along with cubes. A good rule of thumb is to take the area of the base (whatever shape it may be) and multiply that by the height of the shape to get the volume.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="3D Geometry - Part 2" width="580" height="435" src="https://www.youtube.com/embed/kNZIksZmNZ4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>More Problems with Basic Geometry</title>
+		<link>http://primerimath.github.io/more-problems-with-basic-geometry/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=more-problems-with-basic-geometry</link>
+		
+		<dc:creator><![CDATA[tanvi]]></dc:creator>
+		<pubDate>Sun, 04 Oct 2020 20:20:41 +0000</pubDate>
+				<category><![CDATA[Competition Math]]></category>
+		<category><![CDATA[Elementary School]]></category>
+		<guid isPermaLink="false">http://primerimath.github.io/?page_id=360</guid>
+
+					<description><![CDATA[These two videos go through some competition-level practice problems with the formulas taught in the first video. The applications of the formulas are endless; be sure to practice problems on this topic.]]></description>
+										<content:encoded><![CDATA[
+<p>These two videos go through some competition-level practice problems with the formulas taught in the first video. The applications of the formulas are endless; be sure to practice problems on this topic.</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="More Problems with Basic Geometry - Part 1" width="580" height="435" src="https://www.youtube.com/embed/0gBZRM2FNSA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="More Problems with Basic Geometry - Part 2" width="580" height="435" src="https://www.youtube.com/embed/QqGUyp7E-6U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
